@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Day 1</title>
+    <!--you NEED A SEMICOLON AFTER THE ELEMENT-->
+    <style>
+        /* p is our selector, color is our property, lightskyblue is our value*/
+        /*this is how you make CSS notes within style tags */
+        h1 {color:lightskyblue;}
+        p, {
+            color:slategrey;
+            /* this is font size by % - 3 times the default size
+            font-size: 300% */
+            font-size: 1.5em; /* 50% bigger than default */
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bolder
+        }
+        p a {color:cornflowerblue;}
+        /* ids have a unique identifier, classes dont */
+        #firstlink {color:hotpink}
+        .redtext {color:dodgerblue}
+    </style>
+</head>
+<body>
+    <h1>CSS- How Do You DO It?</h1>
+    <a href="http://www.amazon.com" id="firstlink">Amazon</a>
+    <p>
+        <a href="http://www.google.com">Google</a>
+        <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium inventore suscipit corporis a id, modi odio enim fugiat explicabo et optio repellendus dolores dolor non eligendi officiis consectetur illo.</p>
+        <p class="redtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam temporibus adipisci obcaecati iste vitae fugiat enim autem, possimus tempora nobis, dolorem eos fuga, perferendis quos eveniet dolores vero voluptatem odit?</p>
+</body>
+</html>
