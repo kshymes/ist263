@@ -1,0 +1,109 @@
+
+    h1{
+        text-align:center;
+    }
+    .nav {
+        background-color: #A98E79;
+        color: #513E32;
+    }
+    .one {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+    .title {
+        width: 635px;
+        text-align:center;
+        height: 250px;
+    }
+    .text {
+        width: 635px;
+        background-color: #A98E79;
+        padding: 15px;
+        text-align: center;
+        height: 250px;
+        font-size: 20px;
+    }
+    .two {
+        display: flex;
+        margin: auto; 
+        justify-content: space-evenly;
+    }
+  
+ 
+    .three {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+   
+    .four {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+    
+    .five {
+        display: flex;
+        margin: auto;
+        justify-content: space-evenly;
+    }
+    
+
+    .link {
+        justify-content: center;
+    }
+
+    #resumecaption {
+        text-align: center;
+    }
+   .resume {
+    padding-left: 425px;
+   }
+    div a {
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 2px;
+    }
+    
+    #dwgraphics h2 {
+        font-size: 45px;
+    }
+    #dwgraphics h5{
+        font-size: 20px
+    }
+    
+    #source h2 {
+        font-size: 45px;
+    }
+    #source h5{
+        font-size: 20px
+    }
+    #hs h2 {
+        font-size: 45px;
+    }
+    #hs h5{
+        font-size: 20px
+    }
+
+    #accountexec h2 {
+        font-size: 45px;
+    }
+    #accountexec h5 {
+        font-size: 20px
+    }
+    #execcopy {
+        font-size:17px;
+        padding: 2px;
+    }
+    #graphicscopy {
+        padding-left: 2px;
+        padding-right: 2px;
+    }
+
+
+
+
+
+  
+
