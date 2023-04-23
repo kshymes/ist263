@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Home</title>
     <link rel="stylesheet" href="../project05/portfolio-style.css">
-<nav>
-    <a href="../project05/experience.html"> experience </a>
-    <a href= "../project05/portfolio.html">portfolio</a>    
-    <a href="../project05/home.html">
-        <img src="../images/design_samples/wordmark coal.png" width="80px" height="auto">
-    </a>
-    <a href="../project05/about.html">about</a>
-    <a href="../project05/blog.html">blog</a>
-</nav> 
+    <nav class="menu">
+        <div><a href="../project05/experience.html" class="nothome"> experience </a></div>
+         <div><a href= "../project05/portfolio.html" class="nothome">portfolio</a></div>    
+         <div><a href="../project05/home.html">
+             <img src="../images/design_samples/wordmark coal.png" width="100px" height="auto" alt="workdmark"></a>
+         </div>
+         <div><a href="../project05/about.html" class="nothome">about</a></div>
+         <div><a href="../project05/blog.html" class="nothome">blog</a></div>  
+    </nav> 
 <nav class="nav2">  
     <ul>
         <li><a href="../project05/home.html">
@@ -30,40 +30,162 @@
         </li>
     </ul>
  </nav> 
+<script>
+
+</script>
+ <style>
+    .nothome {
+        text-decoration: none;
+    }
+    .collapsible {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+    }
+    .active, .collapsible:hover {
+        background-color: #ccc;
+    }
+    .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+        max-height: 0;
+        transition: max-height 0.2s ease-out;
+    }
+    #row1 {
+        display:flex;
+        background-color: #D6D0FF;
+        margin-block-start: 40px; /*remove this wehen we fix nav*/
+    }
+    #column2 {
+        flex-direction:row;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #row2 {
+        display:flex;
+        background-color: #ffffff;
+    }
+    #row3 {
+        background-color: #D6D0FF;
+    }
+    #currentlyhead {
+        width:710px;
+        padding-left: 15px;
+    }
+    #currentlytitle {
+        margin-block-end: 0px;
+    }
+    #dropdown {
+        width:710px;
+    }
+    #aboutme {
+        padding-right: 30px;
+    }
+    #introhead {
+       
+        margin-block-end: 0px;
+    }
+    #introsub {
+        margin-block-start: 15px;
+        margin-block-end: 0px;
+    }
+    #h3 {
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    #interests {
+        display:flex;
+        flex: 1 1 auto;
+        padding: 20px;
+    }
+
+    #music, #dance, #care {
+        flex: 1 1 auto;
+        text-align: center;
+    }
+    nav {
+        text-decoration: none;
+    }
+    h3 {
+        font-family: ralewayb;
+        font-size:30px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 17px;
+    }
+    body {
+        padding: 20px;
+        background-color: #ffffff;
+    }
+ </style>
 </head>
 <body>
     <div id="row1">
-        <div id="headshotC"></div>
-        <div>
-            <div id="homehead"></div>
-            <div id="aboutme"></div>
+        <div id="headshotC">
+            <img src="../images/kendallphoto.JPG" width="450" height="auto" alt="kendallheadshot">
+        </div>
+        <div id="column2">
+            <div id="homehead"> 
+                <h1 id="introhead">Hey, I'm Kendall!</h1> 
+               <h3 id="introsub">Welcome to my portfolio website</h3>
+            </div>
+            <div id="aboutme">
+                <p> I am a sophomore studying Public Relations at Syracuse University, with a minor in Information Management and Technology. Within the field of strategic communication, I am interested in social media and digital branding. I am also fascinated by how social media and technology intersect, and I love finding new ways that communications professionals can take advantage of emerging technologies. I offer strong skills in research, design and writing; being well-versed in AP style and the adobe creative suite.</p>
+                <p> I am very involved in extracurricular activities. This past year, I have served as the graphic design chair for SU Danceworks, where I have been responsible for designing digital content and writing newsletters for the organization. Next year, I will take on the producer role, where I will assist the directors in overseeing all creative and logistic aspects of the organization. I have also been involved in Hill Communications, SU&#39;s only student-run public relations firm. These past three semesters, I have been able to work with clients in a wide range of industries ranging from healthcare to education. This website showcases the work I have done inside and outside the classroom. </p>
+            </div>
         </div>
     </div>
-    <div>
-        
+    <div id="row2">
+        <div id="currentlyhead">
+            <h3 id="currentlytitle">What i'm up to</h3>
+            <p>click each title to learn more about what i'm doing</p>
+        </div>
+        <div id="dropdown">
+            <button type="button" class="collapsible">Account Supervisor- Hill Communications and Hatfield Schwartz Law Group</button>
+                <div class="content">
+                    <p>As an account supervisor for Hatfield Schwartz Law Group, I serve as the liason between the client and my team of associates. I meet with client representatives weekly and establish a communication plan that aligns with their objectives. Skills include social media monitoring, design and email marketing.  </p>
+                </div>
+            <button type="button" class="collapsible">Research Assistant- the SOURCE and the USDA</button>
+                <div class="content">
+                    <p>As an undergraduate research assistant through the SOURCE at Syracuse University, I complete weekly research tasks with a team of undergraduates and faculty mentors. This semester, the team is investigating the consumer perspective on carbon neutral and sustainably-labeled goods. My work focuses on accessibility within sustainable consumption and environmental literacy.</p>
+                </div>
+            <button type="button" class="collapsible">Producer- SU Danceworks</button>
+                <div class="content">
+                    <p>As producer for SU Danceworks, Syracuse's largest student-run dance organization, I oversee all fiscal and logistical elements related to the organization and our annual spring showcase. Additionally, I work closely with the directors and assist in the oversight of the entire organization. </p>
+                </div>
+        </div>
     </div>
-    <img src="../images/kendallphoto.JPG" width="450" height="auto" alt="kendallheadshot"> <!--add headshot here-->
-   <h2> 
-    Hi, I'm Kendall!
-   </h2> 
-   <p>
-    I am a sophomore studying Public Relations at Syracuse University, with a minor in Information Management and Technology. Within the field of strategic communication, I am interested in social media and digital branding. I am also fascinated by how social media and technology intersect, and I love finding new ways that communications professionals can take advantage of emerging technologies. I offer strong skills in research, design and writing; being well-versed in AP style and the adobe creative suite. 
-   </p>
-   <p>
-    I am very involved in extracurricular activities. This past year, I have served as the graphic design chair for SU Danceworks, where I have been responsible for designing digital content and writing newsletters for the organization. Next year, I will take on the producer role, where I will assist the directors in overseeing all creative and logistic aspects of the organization. I have also been involved in Hill Communications, SU&#39;s only student-run public relations firm. These past three semesters, I have been able to work with clients in a wide range of industries ranging from healthcare to education. This website showcases the work I have done inside and outside the classroom. </p>
-   <h3>What I'm Up To</h3>
-   <p>
-    Account Supervisor- Hill Communications and Hatfield and Schwartz Law Group <br>
-    Research Assistant- The SOURCE and the USDA <br>
-    Producer- SU Danceworks <br>
-   </p>
-   <h3>Interests</h3>
-   <p>
-    Listening to music <br>
-    Dance <br>
-    Self-Care <br>
-    Winter Sports <br> <!--ask gabi and jovan ab this-->
-   </p>
+    <div id="row3">
+        <div>
+            <h3 id="h3">Interests</h3>
+        </div>
+        <div id="interests">
+            <div id="music">
+                <p>Listening to music</p>
+                <p>fun fact: I have made 120+ playlists on Spotify</p>
+            </div>
+            <div id="dance"> 
+                <p>Dance</p>
+                <p>fun fact: I have been dancing for 15 years</p>
+            </div>
+            <div id="care">
+                <p>Self-Care</p>
+                <p>fun fact: getting ready is my favorite part of the day</p>
+            </div>
+        </div>
+    </div>
+  
    <footer>
         <p>&#169;2023</p>
         <p>Designed by Kendall Hymes</p>

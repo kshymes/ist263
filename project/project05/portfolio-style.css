@@ -6,6 +6,19 @@
     font-family: questrial;
     src: url(../fonts/Questrial-Regular.ttf);
 }
+@font-face {
+    font-family: DMserif;
+    src: url(../fonts/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+    font-family: ralewayb;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
 @media only screen and (min-width: 1125px){
     .nav2 {display: none;}
     }
@@ -49,7 +62,7 @@
 
 nav {
     color: #513E32;
-    font-family: questrial;
+    font-family: ralewayb;
     height: 40px;
     text-align: center;
     justify-content: space-around;
@@ -64,12 +77,12 @@ nav {
 
 h1 {
     color: #A79AFC;
-    font-family: rozhaone;
+    font-family: DMserif;
 
 }
 h2 {
     color: #A79AFC;
-    font-family: rozhaone;
+    font-family: DMserif;
 }
 h3{
     color:#513E32;
@@ -78,17 +91,17 @@ h5 {
     color:#513E32;
 }
 p {
-    font-family: questrial;
+    font-family: raleway;
 }
 li {
-    font-family: questrial;
+    font-family: raleway;
 }
 body{
     text-decoration: none;
 }
 
 .link{
-    font-family: rozhaone;
+    font-family: DMserif;
     font-size: 15px;
     color:#A79AFC;
     background-color: #D6D0FF; 
