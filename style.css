@@ -1,18 +1,18 @@
 @font-face {
     font-family: poppinsextra;
-    src: url(/fonts/Poppins-ExtraBold.ttf);
+    src: url(../ist263/project/fonts/Poppins-ExtraBold.ttf);
 }
 @font-face {
     font-family: poppinsbold;
-    src: url(/fonts/Poppins-Bold.ttf);
+    src: url(../ist263/project/fonts/Poppins-Bold.ttf);
 }
 @font-face {
     font-family: poppins;
-    src: url(/fonts/Poppins-Regular.ttf);
+    src: url(../ist263/project/fonts/Poppins-Regular.ttf);
 }
 @font-face {
     font-family: poppinslight;
-    src: url(/fonts/Poppins-Light.ttf);
+    src: url(../ist263/project/fonts/Poppins-Light.ttf);
 }
 
 /*DO THREE MEDIA QUERIES FOR DIFFERENT WIDTHS */
