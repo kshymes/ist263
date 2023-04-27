@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .accordion {
+        margin: 20px auto;
+        flex: end;
+    }
+    .accordion li {
+        list-style: none;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        background-color: #F6F4E1
+    }
+    .accordion li label {
+        cursor: pointer;
+    }
+   
+    .accordion .content{}
+    label::{
+        content '+';
+        margin-right: 10px;
+        font-size: 24px;
+    }
+    .accordion .content {
+        max-height:0;
+        overflow: hidden;
+        transition: max-height 1s
+    }
+    .accordion input[type="checkbox"]:checked + label +.content {
+        max-height: 1000px;
+    }
+    input[type="checkbox"]{
+        display:none;
+    }
+</style>
+</head>
+<body>
+    <div id="column2">
+        <ul class="accordion">
+            <li>
+                <input type="checkbox" name="accordion" id="first" checked>
+                <label for="first">Linktree Resources</label>
+                <div class=" content">
+                    <div id="linktree">
+                        <h2>Linktree Resources</h2>
+                        <p>As the graphic designer, I was also responsible for managing a Linktree page for easy access to Danceworks resources throughout the year. The initial Linktree included links to an about page, photo gallery, and links to old shows. After the initial launch, I would update the links as necessary to highlight events throughout the year. 
+                        </p>
+                    </div>
+                    <div id="linktreecontent">
+                        <div>
+                            <h3 id="aboutlabel">About Danceworks</h3>
+                            <img src="../images/sudanceworks/aboutdw.png" alt="aboutdw" width="385px" height="500px">
+                        </div>
+                        <div>
+                            <h3 id="gallerylabel">Photo Gallery</h3>
+                            <img src="../images/sudanceworks/dwphotogallery.png" alt="photos" width="385px" height="500px">
+                        </div>
+                        <div>
+                            <h3 id="audtitionlabel">Audition Information</h3>
+                            <img src="../images/sudanceworks/auditioninfo.png" alt="audition" width="385px" height="500px">
+                        </div> 
+                    </div>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordion" id="second" checked>
+                <label for="second">Workshop Graphics</label>
+                <div class=" content">
+                    <div id="workshops">
+                        <h2>Workshops</h2>
+                        <p>Every fall and spring, Danceworks has a week of open workshops led by student choreographers. For these events, I created a series of graphics to post on the Danceworks Instagram page that aligned with our brand guidelines</p>
+                    </div>
+                    <div id="workshopcontent">
+                    <div>
+                        <h3 id="falllabel">Fall Workshop Graphics</h3>
+                        <iframe src="../images/sudanceworks/fallworkshops-portfolio.pdf" alt="fallworkshops" width="510px" height="560px"></iframe>
+                        <a href="../images/sudanceworks/fallworkshops-portfolio.pdf" class="view">click to view</a>
+                    </div>
+                    <div>
+                        <h3 id="springlabel">Spring Workshop Graphics</h3>
+                        <iframe src="../images/sudanceworks/springworkshop-portfolio.pdf" alt="springworkshops" width="510px" height="560px"></iframe>
+                        <a href="../images/sudanceworks/springworkshop-portfolio.pdf" class="view">click to view</a>
+                    </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <input type="checkbox" name="accordion" id="third" checked>
+                <label for="third">Producer- SU Danceworks </label>
+                <div class=" content">
+                    <p>
+                        As producer for SU Danceworks, Syracuse's largest student-run dance organization, I oversee all fiscal and logistical elements related to the organization and our annual spring showcase. Additionally, I work closely with the directors and assist in the oversight of the entire organization. 
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+    
+</html>

@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="../project05/portfolio-style.css">
-    <nav>
-        <a href="../project05/experience.html"> experience </a>
-        <a href= "../project05/portfolio.html">portfolio</a>    
-        <a href="../project05/home.html">
-            <img src="../images/design_samples/wordmark coal.png" width="80px" height="auto">
-        </a>
-        <a href="../project05/about.html">about</a>
-        <a href="../project05/blog.html">blog</a>
-    </nav>    
+    <nav class="navwide"> 
+        <div class="navsplit"> 
+            <div><a href="../project05/experience.html" class="nothome" id="nh1"> experience </a></div>
+            <div><a href= "../project05/portfolio.html" class="nothome" id="nh2">portfolio</a></div>   
+        </div>
+        <div class="navsplit">
+            <div><a href="../project05/home.html">
+                <img src="../images/khlogo.png" width="100px" height="auto" alt="workdmark"></a>
+            </div>
+        </div>
+        <div class="navsplit">
+            <div><a href="../project05/about.html" class="nothome" id="nh3">contact</a></div>
+            <div><a href="../project05/blog.html" class="nothome" id="nh4">blog</a></div>  
+        </div>
+    </nav>
     <nav class="nav2">  
         <ul>
             <li><a href="../project05/home.html">
@@ -30,83 +36,64 @@
             </li>
         </ul>
      </nav> 
+     <style>
+        h1 {
+            font-size:80px;
+            color: #F8AEDC;
+            text-align: center;
+        }
+        .link {
+            font-family: poppinsbold;
+            color: #FFFEF5;
+            size:30px;
+            padding: 30px;
+            padding-left: 60px;
+            padding-right: 60px;
+            text-decoration: none;
+        }
+        .link a:visited {
+            text-decoration: none;
+        }
+        #l1 {
+            background-color:#F8AEDC;
+        }
+        #l2 {
+            background-color: #FF66C4;
+        }
+        #l3 {
+            background-color: #373535;
+        }
+        #l4 {
+            background-color: #52B1FF;
+        }
+        #l5 {
+            background-color:#B2DCFF;
+        }
+        #hyper {
+            display:flex;
+            justify-content: space-around;
+        }
+     </style>
 </head>
 <body>
-    <!--gna figure out how to make these two seperate pages in a dropdown. I will learn this before the CSS part is due-->
-    <h1>sample work</h1>
-    <h2>Writing Samples</h2>
-    <p>Strong writing skills are essential to any good communicator. Crafting stories that make your clients stand out amongst the crowd requires writing that is clear and concise, but also conveys the personality of the organization. During the past two years at university, I have learned how to be a flexible writer by adopting different tones to effectively reach my audience. 
-    </p>
-        <iframe src="../images/writingsamples/Audience Persona- Spotify (1).pdf" alt="spotifyaudiencepersona" width="510px" height="690px"></iframe>
-            <a href="../images/writingsamples/Audience Persona- Spotify (1).pdf">click to view</a>
-        <iframe src="../images/writingsamples/News Release- Spotify.pdf" alt="spotifynewsrelease" width="510px" height="690px"></iframe>
-            <a href="../images/writingsamples/News Release- Spotify.pdf">click to view</a>
-        <iframe src="../images/writingsamples/PESO-Spotify.pdf" alt="spotifypeso" width="510px" height="690px"></iframe>
-            <a href="../images/writingsamples/PESO-Spotify.pdf">click to view</a>
-        <iframe src="../images/writingsamples/Media Pitch- Spotify.pdf" alt="mediapitchspotify" width="510px" height="690px"></iframe>
-            <a href="../images/writingsamples/Media Pitch- Spotify.pdf">click to view</a>
-        <iframe src="../images/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px"></iframe>
-            <a href="../images/writingsamples/Kendall Hymes News Story.pdf">click to view</a>
-        <iframe src="../images/writingsamples/Kendall Hymes Press Release.pdf" alt="fentypress" width="510px" height="690px"></iframe>
-            <a href="../images/writingsamples/Kendall Hymes Press Release.pdf">click to view</a>
-    <h2>Design samples</h2>
-    <p>An important part of communicating any concept is making sure that it visually captures the audience&#39;s attention. While art directors and graphic designers are usually the ones who bring these visions to life, having a solid understanding of design can help you communicate your vision to designers. I believe that a strong relationship between strategy and design will strengthen any campaign. While design isn&#39;t ultimately what I wish to pursue, I am a creative person at my core and enjoy making my work as visually appealing as possible. Throughout college and beyond, I hope to strengthen my design skills through coursework and extracurriculars.
-    </p>
-        <img src="../images/design_samples/wordmark coal.png" alt="wordmark" width="315px" height="227px"></img>
-        <iframe src="../images/design_samples/Magazine Roughs.pdf" alt="magazine" width="510px" height="660px"></iframe>
-            <a href="../images/design_samples/Magazine Roughs.pdf">click to view</a>
-        <iframe src="../images/design_samples/Final Mag UI.pdf" alt="magazineapp" width="510px" height="870px"></iframe>
-            <a href="../images/design_samples/Final Mag UI.pdf">click to view</a>
-        
-    <h1>clients</h1>
-    <h2>The Syracuse Stage</h2>
-        <iframe src="../images/syracusestage/Social Media Analytics.pdf" alt="ss_socialmedia" width="510px" height="690px"></iframe>
-            <a href="../images/syracusestage/Social Media Analytics.pdf">click to view</a>
-        <iframe src="../images/syracusestage/Syracuse Stage Content Analysis.pdf" alt="ss_content" width="510px" height="690px"></iframe>
-            <a href="../images/syracusestage/Syracuse Stage Content Analysis.pdf">click to view</a>
-    <h2>SU Danceworks</h2> 
-        <iframe src="../images/sudanceworks/danceworksbrandguidelines22-23.pdf" alt="danceworksbrandguidelines" width="300px" height="390px"></iframe>
-            <a href="../images/sudanceworks/danceworksbrandguidelines22-23.pdf">click to view</a>
-        <iframe src="../images/sudanceworks/dwlinktree-portfolio.pdf" alt="dwlinktree" width="510px" height="660px"></iframe>
-            <a href="../images/sudanceworks/dwlinktree-portfolio.pdf">click to view</a>
-        <iframe src="../images/sudanceworks/fallworkshops-portfolio.pdf" alt="fallworkshops" width="510px" height="660px"></iframe>
-            <a href="../images/sudanceworks/fallworkshops-portfolio.pdf">click to view</a>
-        <iframe src="../images/sudanceworks/springworkshop-portfolio.pdf" alt="springworkshops" width="510px" height="660px"></iframe>
-            <a href="../images/sudanceworks/springworkshop-portfolio.pdf">click to view</a>
-        <iframe src="../images/sudanceworks/justdanceworks-portfolio.pdf" alt="jdwgraphic" width="510px" height="660px"></iframe>
-            <a href="../images/sudanceworks/justdanceworks-portfolio.pdf">click to view</a>
-        <iframe src="../images/sudanceworks/justdanceworksig.pdf" alt="jdwig" width="510px" height="660px"></iframe>
-            <a href="../images/sudanceworks/justdanceworksig.pdf">click to view</a>
-        <iframe src="../images/sudanceworks/voguebranding-portfolio.pdf" alt=dwvoguebranding width="510px" height="660px"></iframe>
-            <a href="../images/sudanceworks/voguebranding-portfolio.pdf">click to view</a>
-        <iframe src="../images/sudanceworks/dwvoguefeed-portfolio.pdf" alt="voguefeed" width="510px" height="660px"></iframe>
-            <a href="../images/sudanceworks/dwvoguefeed-portfolio.pdf">click to view</a>
-        <img src="../images/sudanceworks/dwvogueshoot-portfolio.jpg" alt="vogueshoot" width="510px" height="660px"></img>
-        <iframe src="../images/sudanceworks/VOGUEPROMOFINAL.mp4" alt="voguepromovid" width="960px" height="540px"></iframe>
-
-    
-    <h2>Hatfield Schwartz Law Group</h2>
-        <iframe src="../images/hatfieldschwartz/H&S Competitor analysis and online presense suggestions.pdf" alt="linkedinsuggestions" width="960px" height="540px"></iframe>
-            <a href="../images/hatfieldschwartz/H&S Competitor analysis and online presense suggestions.pdf">click to view</a>
-    <h2>Newhouse PR</h2>
-        <img src="../images/newhousepr/newhouseprhighlights.jpg" alt="nhprhighlights" width="390px" height="123px"></img>
-        <iframe src="../images/newhousepr/Newhouse PR Final Report Spring 2022.pdf" alt="nhprfinal" width="510px" height="660px"></iframe>
-            <a href="../images/newhousepr/Newhouse PR Final Report Spring 2022.pdf">click to view</a>
-    <h2>George Mason University Department of Branding</h2>
-        <iframe src="../images/gmubranding/Virginia Tech DC Metro-Area Campuses Overview and Observation.pdf" alt="gmuresearch" width="960px" height="540px"></iframe>
-            <a href="../images/gmubranding/Virginia Tech DC Metro-Area Campuses Overview and Observation.pdf">click to view</a>
-    <h2>Upstate Medical University</h2>
-        <iframe src="../images/upstatemedical/upstatewtv.pdf" alt="followthevan" width="510px" height="660px"></iframe>
-            <a href="../images/upstatemedical/upstatewtv.pdf">click to view</a>
-        <iframe src="../images/upstatemedical/funfacts.pdf" alt="facts" width="500px" height="500px"></iframe>
-            <a href="../images/upstatemedical/funfacts.pdf">click to view</a>
-        <iframe src="../images/upstatemedical/Upstate University Hospital Mobile Mammography Final Report.pdf" alt="upstatereport" width="510px" height="660px"></iframe>
-            <a href="../images/upstatemedical/Upstate University Hospital Mobile Mammography Final Report.pdf">click to view</a>
-    <!--look at unit7participation.html to see how i linked the pdfs-->
+    <h1>Portfolio</h1>
+    <p> Click the links below to see some of my work!</p>
+    <div id="hyper">
+        <a href="../project05/portfolio-writing.html" class="link" id="l1">Writing Samples</a>
+        <a href="../project05/portfolio-design.html" class="link" id="l2">Design Samples</a>
+        <a href="../project05/portfolio-stage.html" class="link" id="l3">The Syracuse Stage</a>
+        <a href="../project05/portfolio-dw.html" class="link" id="l4">SU Danceworks</a>
+        <a href="../project05/portfolio-hc.html" class="link" id="l5">Hill Communications</a>
+    </div>
     <footer>
-        <p>&#169;2023</p>
-        <p>Designed by Kendall Hymes</p>
-        <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"></a><!--find a way to make this just the linkedin logo-->
+        <div class="footer">
+            <div class="footersplit">
+                <p>Designed by Kendall Hymes  &#169;2023</p>
+            </div>
+            <div class="footersplit">
+                <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="../images/linkedinlogo.png" alt=linkedin width="40px" height="auto"></a><!--find a way to make this just the linkedin logo-->
+            </div>
+        </div>
    </footer>
 </body>
 </html>

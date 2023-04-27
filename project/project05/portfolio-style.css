@@ -1,23 +1,20 @@
 @font-face {
-    font-family: rozhaone;
-    src: url(../fonts/RozhaOne-Regular.ttf);
+    font-family: poppinsextra;
+    src: url(../fonts/Poppins-ExtraBold.ttf);
 }
 @font-face {
-    font-family: questrial;
-    src: url(../fonts/Questrial-Regular.ttf);
+    font-family: poppinsbold;
+    src: url(../fonts/Poppins-Bold.ttf);
 }
 @font-face {
-    font-family: DMserif;
-    src: url(../fonts/DMSerifDisplay-Regular.ttf);
+    font-family: poppins;
+    src: url(../fonts/Poppins-Regular.ttf);
 }
 @font-face {
-    font-family: ralewayb;
-    src: url(../fonts/Raleway-Bold.ttf);
+    font-family: poppinslight;
+    src: url(../fonts/Poppins-Light.ttf);
 }
-@font-face {
-    font-family: raleway;
-    src: url(../fonts/Raleway-Regular.ttf);
-}
+
 
 @media only screen and (min-width: 1125px){
     .nav2 {display: none;}
@@ -60,54 +57,90 @@
         position: relative;
     }
 
-nav {
-    color: #513E32;
-    font-family: ralewayb;
-    height: 40px;
-    text-align: center;
-    justify-content: space-around;
-    display: flex;
-    text-decoration: none;
-    font-size: 20px;
-}
-.nothome {
-    font-size: 15px;
-}
+    nav {
+         
+        display: flex;
+        justify-content:flex-end;
+    }
+    nav div {
+        padding: 5px;
+    }
+    .navwide {
+        justify-content: space-between;
+    }
+    .navsplit {
+        display: flex;
+    }
+    .nothome {
+        text-decoration: none;
+        font-family: poppinsbold;
+        font-size: 20px;
+        color:#373535;
+    }
+    .nothome a:visited {
+        text-decoration: none;
+    }
+    .nothome a:hover{
+        color: #373535;
+    }
+
+    #nh1 {
+        color:#FF66C4;
+    }
+    #nh2 {
+        color:#F8AEDC;
+        padding-left: 15px;
+    }
+    #nh3 {
+        color:#B2DCFF;
+        padding-right: 15px;
+    }
+    #nh4 {
+        color:#52B1FF;
+    }
  
 
 h1 {
-    color: #A79AFC;
-    font-family: DMserif;
+    font-family: poppinsextra;
 
 }
 h2 {
-    color: #A79AFC;
-    font-family: DMserif;
+    font-family: poppinsextra;
 }
-h3{
-    color:#513E32;
-}
-h5 {
-    color:#513E32;
-}
+
 p {
-    font-family: raleway;
+    font-family: poppins;
 }
 li {
-    font-family: raleway;
+    font-family: poppins;
 }
 body{
     text-decoration: none;
 }
 
 .link{
-    font-family: DMserif;
+    font-family: poppinsbold;
     font-size: 15px;
-    color:#A79AFC;
-    background-color: #D6D0FF; 
+    background-color:#FFFEF5; 
+    color:#FF66C4;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.link a:visited {
+    text-decoration: none;
+}
 
-}
 body{
-    background-color: #D6D0FF;
+    background-color: #FFFEF5;
+    padding: 20px;
 }
+
+.footer {
+    color: #373535;
+    padding-top:30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
 

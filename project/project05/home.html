@@ -6,15 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Home</title>
     <link rel="stylesheet" href="../project05/portfolio-style.css">
-    <nav class="menu">
-        <div><a href="../project05/experience.html" class="nothome"> experience </a></div>
-         <div><a href= "../project05/portfolio.html" class="nothome">portfolio</a></div>    
-         <div><a href="../project05/home.html">
-             <img src="../images/design_samples/wordmark coal.png" width="100px" height="auto" alt="workdmark"></a>
-         </div>
-         <div><a href="../project05/about.html" class="nothome">about</a></div>
-         <div><a href="../project05/blog.html" class="nothome">blog</a></div>  
-    </nav> 
+    <nav class="navwide"> 
+        <div class="navsplit"> 
+            <div><a href="../project05/experience.html" class="nothome" id="nh1"> experience </a></div>
+            <div><a href= "../project05/portfolio.html" class="nothome" id="nh2">portfolio</a></div>   
+        </div>
+        <div class="navsplit">
+            <div><a href="../project05/home.html">
+                <img src="../images/khlogo.png" width="100px" height="auto" alt="workdmark"></a>
+            </div>
+        </div>
+        <div class="navsplit">
+            <div><a href="../project05/about.html" class="nothome" id="nh3">contact</a></div>
+            <div><a href="../project05/blog.html" class="nothome" id="nh4">blog</a></div>  
+        </div>
+    </nav>
 <nav class="nav2">  
     <ul>
         <li><a href="../project05/home.html">
@@ -31,92 +37,112 @@
     </ul>
  </nav> 
 <script>
-
 </script>
  <style>
-    .nothome {
-        text-decoration: none;
+    
+   
+    .accordion {
+        margin: 20px auto;
+        width: 750px;
+        flex: end;
     }
-    .collapsible {
-        background-color: #eee;
-        color: #444;
-        cursor: pointer;
-        padding: 18px;
+    .accordion li {
+        list-style: none;
         width: 100%;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
+        margin: 10px;
+        padding: 10px;
+        background-color: #F6F4E1
     }
-    .active, .collapsible:hover {
-        background-color: #ccc;
+    .accordion li label {
+        cursor: pointer;
     }
-    .content {
-        padding: 0 18px;
-        display: none;
+   
+    .accordion .content{}
+    label::{
+        content '+';
+        margin-right: 10px;
+        font-size: 24px;
+    }
+    .accordion .content {
+        max-height:0;
         overflow: hidden;
-        background-color: #f1f1f1;
-        max-height: 0;
-        transition: max-height 0.2s ease-out;
+        transition: max-height 1s
     }
+    .accordion input[type="radio"]:checked + label +.content {
+        max-height: 400px;
+    }
+    input[type="radio"]{
+        display:none;
+    }
+    
     #row1 {
         display:flex;
-        background-color: #D6D0FF;
+        flex: 1 1 auto;
+        background-color: #F8AEDC;
         margin-block-start: 40px; /*remove this wehen we fix nav*/
     }
     #column2 {
         flex-direction:row;
+        padding-top:40px;
         padding-left: 30px;
         padding-right: 30px;
     }
     #row2 {
         display:flex;
-        background-color: #ffffff;
-    }
-    #row3 {
-        background-color: #D6D0FF;
+        background-color: #FFFEF5;
     }
     #currentlyhead {
-        width:710px;
-        padding-left: 15px;
+        padding: 40px;
+        color:#373535
     }
-    #currentlytitle {
-        margin-block-end: 0px;
+    #row3 {
+        background-color: #B2DCFF;
     }
-    #dropdown {
+   
+    #accordion {
         width:710px;
     }
     #aboutme {
         padding-right: 30px;
     }
     #introhead {
-       
+        color: #FF66C4;
         margin-block-end: 0px;
     }
     #introsub {
         margin-block-start: 15px;
         margin-block-end: 0px;
+        color: #000000
     }
     #h3 {
-        padding-left: 15px;
-        padding-top: 15px;
+        font-family: poppinsbold; 
+        padding-left: 40px;
+        padding-top: 25px;
+        color: #52B1FF;
     }
     #interests {
         display:flex;
         flex: 1 1 auto;
-        padding: 20px;
+        padding: 40px;
+        padding-top: none;
     }
 
     #music, #dance, #care {
         flex: 1 1 auto;
         text-align: center;
     }
+    .interest {
+        font-family:poppinsbold;
+    }
+    label #first {
+        padding: 10px;
+    }
     nav {
         text-decoration: none;
     }
     h3 {
-        font-family: ralewayb;
-        font-size:30px;
+        font-family: poppinsbold;
+        font-size:40px;
     }
     h1 {
         font-size: 60px;
@@ -124,16 +150,19 @@
     p {
         font-size: 17px;
     }
-    body {
-        padding: 20px;
-        background-color: #ffffff;
+
+    #currentlytitle, #h3 {
+        font-size: 50px;
+    }
+    #currentlytitle {
+        margin-bottom: 20px;
     }
  </style>
 </head>
 <body>
     <div id="row1">
         <div id="headshotC">
-            <img src="../images/kendallphoto.JPG" width="450" height="auto" alt="kendallheadshot">
+            <img src="../images/kendallphoto.JPG" width="auto" height="615px" alt="kendallheadshot">
         </div>
         <div id="column2">
             <div id="homehead"> 
@@ -146,50 +175,77 @@
             </div>
         </div>
     </div>
+
     <div id="row2">
         <div id="currentlyhead">
-            <h3 id="currentlytitle">What i'm up to</h3>
-            <p>click each title to learn more about what i'm doing</p>
+            <h3 id="currentlytitle">What I'm up to</h3>
+            <p>Click each title to learn more about what i'm currently involved in.</p>
         </div>
-        <div id="dropdown">
-            <button type="button" class="collapsible">Account Supervisor- Hill Communications and Hatfield Schwartz Law Group</button>
-                <div class="content">
-                    <p>As an account supervisor for Hatfield Schwartz Law Group, I serve as the liason between the client and my team of associates. I meet with client representatives weekly and establish a communication plan that aligns with their objectives. Skills include social media monitoring, design and email marketing.  </p>
-                </div>
-            <button type="button" class="collapsible">Research Assistant- the SOURCE and the USDA</button>
-                <div class="content">
-                    <p>As an undergraduate research assistant through the SOURCE at Syracuse University, I complete weekly research tasks with a team of undergraduates and faculty mentors. This semester, the team is investigating the consumer perspective on carbon neutral and sustainably-labeled goods. My work focuses on accessibility within sustainable consumption and environmental literacy.</p>
-                </div>
-            <button type="button" class="collapsible">Producer- SU Danceworks</button>
-                <div class="content">
-                    <p>As producer for SU Danceworks, Syracuse's largest student-run dance organization, I oversee all fiscal and logistical elements related to the organization and our annual spring showcase. Additionally, I work closely with the directors and assist in the oversight of the entire organization. </p>
-                </div>
+        <div id="column2">
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="first" checked>
+                    <label for="first">Account Supervisor- Hill Communications and Hatfield Schwartz Law Group</label>
+                    <div class=" content">
+                        <p>
+                            As an account supervisor for Hatfield Schwartz Law Group, I serve as the liason between the client and my team of associates. I meet with client representatives weekly and establish a communication plan that aligns with their objectives. Skills include social media monitoring, design and email marketing. 
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second" checked>
+                    <label for="second">Research Assistant- the SOURCE at Syracuse University</label>
+                    <div class=" content">
+                        <p>
+                            As an undergraduate research assistant through the SOURCE at Syracuse University, I complete weekly research tasks with a team of undergraduates and faculty mentors. This semester, the team is investigating the consumer perspective on carbon neutral and sustainably-labeled goods. My work focuses on accessibility within sustainable consumption and environmental literacy.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third" checked>
+                    <label for="third">Producer- SU Danceworks </label>
+                    <div class=" content">
+                        <p>
+                            As producer for SU Danceworks, Syracuse's largest student-run dance organization, I oversee all fiscal and logistical elements related to the organization and our annual spring showcase. Additionally, I work closely with the directors and assist in the oversight of the entire organization. 
+                        </p>
+                    </div>
+                </li>
+            </ul>
         </div>
-    </div>
+    </div>  
+           
     <div id="row3">
         <div>
             <h3 id="h3">Interests</h3>
         </div>
-        <div id="interests">
+        <div id="interests"><!--PHOTOS ARE PLACEHOLDERS -->
             <div id="music">
-                <p>Listening to music</p>
+                <p class="interest">Listening to music</p>
+                <img src="../images/kendallphoto.JPG" alt="placeholder" width="280px" height="auto">
                 <p>fun fact: I have made 120+ playlists on Spotify</p>
             </div>
             <div id="dance"> 
-                <p>Dance</p>
+                <p class="interest">Dance</p>
+                <img src="../images/kendallphoto.JPG" alt="placeholder" width="280px" height="auto">
                 <p>fun fact: I have been dancing for 15 years</p>
             </div>
             <div id="care">
-                <p>Self-Care</p>
+                <p class="interest">Self-Care</p>
+                <img src="../images/kendallphoto.JPG" alt="placeholder" width="280px" height="auto">
                 <p>fun fact: getting ready is my favorite part of the day</p>
             </div>
         </div>
     </div>
   
    <footer>
-        <p>&#169;2023</p>
-        <p>Designed by Kendall Hymes</p>
-        <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/">Linkedin</a><!--find a way to make this just the linkedin logo-->
+        <div class="footer">
+            <div class="footersplit">
+                <p>Designed by Kendall Hymes  &#169;2023</p>
+            </div>
+            <div class="footersplit">
+                <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="../images/linkedinlogo.png" alt=linkedin width="40px" height="auto"></a><!--find a way to make this just the linkedin logo-->
+            </div>
+        </div>
    </footer>
 </body>
 </html>

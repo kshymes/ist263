@@ -7,15 +7,21 @@
     <title>Experience</title>
     <link rel="stylesheet" href="../project05/portfolio-style.css">
     <link rel="stylesheet" href="../project05/experiencemobile.css" media="(max-width:1125px)">
-    <nav class="menu">
-       <div><a href="../project05/experience.html" class="nothome"> experience </a></div>
-        <div><a href= "../project05/portfolio.html" class="nothome">portfolio</a></div>    
-        <div><a href="../project05/home.html">
-            <img src="../images/design_samples/wordmark coal.png" width="100px" height="auto" alt="workdmark"></a>
+    <nav class="navwide"> 
+        <div class="navsplit"> 
+            <div><a href="../project05/experience.html" class="nothome" id="nh1"> experience </a></div>
+            <div><a href= "../project05/portfolio.html" class="nothome" id="nh2">portfolio</a></div>   
         </div>
-        <div><a href="../project05/about.html" class="nothome">about</a></div>
-        <div><a href="../project05/blog.html" class="nothome">blog</a></div>  
-       </nav> 
+        <div class="navsplit">
+            <div><a href="../project05/home.html">
+                <img src="../images/khlogo.png" width="100px" height="auto" alt="workdmark"></a>
+            </div>
+        </div>
+        <div class="navsplit">
+            <div><a href="../project05/about.html" class="nothome" id="nh3">contact</a></div>
+            <div><a href="../project05/blog.html" class="nothome" id="nh4">blog</a></div>  
+        </div>
+    </nav>
     <nav class="nav2">  
         <ul>
             <li><a href="../project05/home.html">
@@ -32,62 +38,74 @@
 <style> 
     h1{
         text-align:center;
-        background-color: #D6D0FF;
-        font-size:85px;
+        font-size:80px;
+        color: #FF66C4;
+        margin-block-start: 40px;
     }
-    body {
-        background-color:#D6D0FF
+    h2 {
+        font-size:35px;
+        line-height: 50px;
     }
-    .nav {
-        background-color: #A98E79;
-        color: #513E32;
+    h5 {
+        font-family: poppinsbold;
     }
+
+    .one, .two, .three, .four, .five {
+        min-height: 400px;
+        max-height: 400px;
+    }
+
     .one {
         display: flex;
         justify-content: space-evenly;
+        background-color:#FF66C4;
     }
     .title {
-        width: 710px;
-        height: 275px;
+        max-width: 710px;
+        min-width: 710px;
         text-align:center;
-        background-color: #ffffff;
+        padding-top: 100px;
     }
 
     .text {
-        width: 710px;
-        height: 275px;
-        background-color: #E9E9E9;
         text-align: center;
-        font-size: 20px;
+        font-size: 15px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
     .two {
         display: flex;
         justify-content: space-evenly;
+        background-color: #FF85D0;
     }
     
     .three {
         display: flex;
         justify-content: space-evenly;
+        background-color:#FF99D8;
     }
     
     .four {
         display: flex;
         justify-content: space-evenly;
+        background-color:#FFADE0;
     }
     
     .five {
         display: flex;
         justify-content: space-evenly;
+        background-color: #FFC2E8;
     }
     
-    .link {
+    .resume .link {
+        display:flex;
         justify-content: center;
     }
 
     #resumecaption {
         text-align: center;
         font-size: 25px;
-        background-color: #D6D0FF;
+        background-color: #FFFEF5;
     }
     .resume {
     display:block;
@@ -95,7 +113,7 @@
     width:550px;
     }
    .violetblock {
-    background-color: #D6D0FF;
+    background-color: #FFFEF5;
    }
     div a {
         text-decoration: none;
@@ -104,79 +122,42 @@
     }
 
     #coursework {
-      font-family:questrial;
-      padding-top: 25px;
+      font-family:poppins;
+      padding: 100px;
     }
 
-    #education h2 {
-        font-size: 45px;
-    }
-
-
-    
-    #dwgraphics h2 {
-        font-size: 45px;
-    }
-    #dwgraphics h5{
-        font-size: 20px
-    }
-    
-    #source h2 {
-        font-size: 45px;
-    }
-    #source h5{
-        font-size: 20px
-    }
-    #source {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 15px;
-    }
-    #hs h2 {
-        font-size: 45px;
-    }
-    #hs h5{
-        font-size: 20px
-    }
-
+  
     #hscopy {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 15px;
+        padding-top: 90px;
     }
     
-
-    #accountexec h2 {
-        font-size: 45px;
-    }
-    #accountexec h5 {
-        font-size: 20px
-    }
     #execcopy {
-        font-size:18px;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 15px;
+        padding-top: 75px;
     }
     #graphicscopy {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 15px;
-        font-size: 19px;
+        padding-top: 100px;
+    }
+    #courses {
+        font-size: 20px;
+        font-family: poppinsbold;
+    }
+    #sourcecopy {
+        padding-top: 95px;
     }
 </style> 
 </head>
 <body>
 <br>
-<h1>Experience</h1><br>
-<section id="experience"><div class="one">
+<h1>My Experience</h1>
+<section id="experience">
+    <div class="one">
     <div class="title" id="education">
         <h2>S.I. Newhouse School at <br> Syracuse University</h2>
         <h5>B.S Public Relations Minor Information and Technology</h5>
     </div>
     <div class="text">
         <div id="coursework">
-        <p>notable courses</p>
+        <p id="courses">notable courses</p>
             <div>
                 PR Writing: Media and Messaging <br>
                 Public Relations Research <br>
@@ -192,21 +173,21 @@
 <div class="two">
     <div class="text">
         <p id="graphicscopy">
-            My role as graphic design chair for SU Danceworks has given me the invaluable opportunity to further my professional experience in strategic communications for an organization that I am passionate about. Since April 2022, I have been responsible for establishing and maintaining online brand guidelines, writing monthly newsletters, and designing all social media content and promotional materials for events and performances. Additionally, I have collaborated with the public relations chairs to create videos and coordinate photoshoots in the promotion of our showcase in March 2023.
-            <div><a href= "../project05/portfolio.html" class="link">see more here</a></div>
+            My role as graphic design chair for SU Danceworks has given me the invaluable opportunity to further my professional experience in strategic communications for an organization that I am passionate about. Since April 2022, I have been responsible for establishing and maintaining online brand guidelines, writing monthly newsletters, and designing all social media content and promotional materials for events and performances. Additionally, I collaborated with the public relations chairs to create videos and coordinate photoshoots in the promotion of our showcase in March 2023.
+            <div><a href= "../project05/portfolio-dw.html" class="link">see more here</a></div>
         </p>
     </div>
     <div class="title" id="dwgraphics">
-        <h2>Graphic Designer for SU Danceworks</h2>
-        <h5>Designing for Dance</h5>
+        <h2>Graphic Designer for <br> SU Danceworks</h2>
+        <h5>Spring 2022-Spring 2023</h5>
     </div>
 </div>
 <div class="three">
     <div class="title" id="source">
         <h2>SOURCE Undergraduate <br>Research Assistant</h2>
-        <h5> Researching for Sustainability</h5>
+        <h5> Winter 2022- Present</h5>
     </div>
-    <div class="text" id="source">
+    <div class="text" id="sourcecopy">
         <p>
             My latest project, I began working as a research assistant through Syracuse’s SOURCE program in January 2023. Working under Dr. Erika Schneider, Regina Lutrell; and alongside undergraduate peers. Throughout the spring 2023 semester, I will be researching organizations’ efforts to become more sustainable, and their public’s attitudes toward sustainable consumption. Recently, the team has been utilizing new artificial intelligence tools to determine how it could potentially benefit the research process.
             <div><a href= "../project05/portfolio.html" class="link">see more here</a></div>
@@ -218,24 +199,24 @@
     <div class="text">
         <p id="hscopy"> 
             In the spring of 2023, I was promoted to an account supervisor for Hill Communications, Syracuse University’s student-run PR firm. Hatfield & Schwartz is a law firm based in Cedar Knolls, New Jersey; and it specializes in employment law.  H&S was a new client with the firm, and it was very rewarding to build this new relationship with our firm. I was responsible for meeting with the client to discuss objectives, come up with a strategic plan for the course of our contract period, and delegate tasks to my associate members.
-            <div><a href= "../project05/portfolio.html" class="link">see more here</a></div>
+            <div><a href= "../project05/portfolio-hc.html" class="link">see more here</a></div>
         </p>
     </div>
     <div class="title" id="hs">
-        <h2>Account Supervisor for Hill Communications</h2>
-        <h5> Hatfield & Schwartz Law Group</h5>
+        <h2>Account Supervisor for Hatfield Schwartz Law Group</h2>
+        <h5> Spring 2023</h5>
     </div>
 </div>
 
 <div class="five">
     <div class="title" id="accountexec">
-        <h2>Account Executive for Hill Communications</h2>
-        <h5>Newhouse PR</h5>
+        <h2>Account Executive for <br> Newhouse PR</h2>
+        <h5>Fall 2022</h5>
     </div>
     <div class="text">
         <p id="execcopy">
             In the Fall of 2022, I had the bragging rights of saying that I did the public relations for the Newhouse publications department. This was a great opportunity for me to build connections within my department of study. Throughout the semester I conducted competitive research on the social media presence of competing public relations programs, and made suggestions for things that we could adopt to the Newhouse PR social media accounts. I also helped create and maintain a social media content calendar for the social media accounts. As an account executive, I was responsible for keeping minutes during our meetings and preparing the budget.
-            <div><a href= "../project05/portfolio.html" class="link">see more here</a></div>
+            <div><a href= "../project05/portfolio-hc.html" class="link">see more here</a></div>
         </p>
     </div>
 </div>
@@ -246,15 +227,20 @@
     <p id="resumecaption">To learn about more of my experience, please see my resume!</p>
  
     <div class="resume">
-    <iframe src="../images/Kendall Hymes Resume semester 4.pdf" width="550" height="733"></iframe> <br>
+        <iframe src="../images/Kendall Hymes Resume semester 4.pdf" width="550" height="733"></iframe> <br>
         <a href="../images/Kendall Hymes Resume semester 4.pdf" class="link">click here to download my resume</a>
     </div>   
 </div>  
             
-    <footer>
-        <p>&#169;2023</p>
-        <p>Designed by Kendall Hymes</p>
-        <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"></a><!--find a way to make this just the linkedin logo-->
-   </footer>
+<footer>
+    <div class="footer">
+        <div class="footersplit">
+            <p>Designed by Kendall Hymes  &#169;2023</p>
+        </div>
+        <div class="footersplit">
+            <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="../images/linkedinlogo.png" alt=linkedin width="40px" height="auto"></a><!--find a way to make this just the linkedin logo-->
+        </div>
+    </div>
+</footer>
 </body>
 </html>
