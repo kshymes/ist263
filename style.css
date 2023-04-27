@@ -1,21 +1,22 @@
 @font-face {
     font-family: poppinsextra;
-    src: url(../ist263/project/fonts/Poppins-ExtraBold.ttf);
+    src: url(/fonts/Poppins-ExtraBold.ttf);
 }
 @font-face {
     font-family: poppinsbold;
-    src: url(../ist263/project/fonts/Poppins-Bold.ttf);
+    src: url(/fonts/Poppins-Bold.ttf);
 }
 @font-face {
     font-family: poppins;
-    src: url(../ist263/project/fonts/Poppins-Regular.ttf);
+    src: url(/fonts/Poppins-Regular.ttf);
 }
 @font-face {
     font-family: poppinslight;
-    src: url(../ist263/project/fonts/Poppins-Light.ttf);
+    src: url(/fonts/Poppins-Light.ttf);
 }
 
-
+/*DO THREE MEDIA QUERIES FOR DIFFERENT WIDTHS */
+/*set max-width for experience so it doesnt smush */
 @media only screen and (min-width: 1125px){
     .nav2 {display: none;}
     }

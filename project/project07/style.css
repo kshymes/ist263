@@ -15,7 +15,8 @@
     src: url(../ist263/project/fonts/Poppins-Light.ttf);
 }
 
-
+/*DO THREE MEDIA QUERIES FOR DIFFERENT WIDTHS */
+/*set max-width for experience so it doesnt smush */
 @media only screen and (min-width: 1125px){
     .nav2 {display: none;}
     }
