@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home</title>
+    <link rel="stylesheet" href="project/project07/portfolio-style.css">
+    <nav class="navwide"> 
+        <div class="navsplit"> 
+            <div><a href="../ist263/project/project07/experience.html" class="nothome" id="nh1"> experience </a></div>
+            <div><a href= "../ist263/project/project07/portfolio.html" class="nothome" id="nh2">portfolio</a></div>   
+        </div>
+        <div class="navsplit">
+            <div><a href="../ist263/index.html">
+                <img src="../ist263/project/images/khlogo.png" width="100px" height="auto" alt="workdmark"></a>
+            </div>
+        </div>
+        <div class="navsplit">
+            <div><a href="../ist263/project/project07/about.html" class="nothome" id="nh3">contact</a></div>
+            <div><a href="../ist263/project/project07/blog.html" class="nothome" id="nh4">blog</a></div>  
+        </div>
+    </nav>
+<nav class="nav2">  
+    <ul>
+        <li><a href="../project05/home.html">
+            <img src="../images/design_samples/wordmark coal.png" width="80px" height="auto"></a>
+            <ul>
+                <li><a href="../project05/experience.html"> experience </a></li>
+                <li><a href= "../project05/portfolio.html">portfolio</a></li>
+                <li><a href="../project05/about.html">about</a></li>
+                <li><a href="../project05/blog.html">blog</a></li>
+            </ul>
+        </li>
+        
+        </li>
+    </ul>
+ </nav> 
+<script>
+</script>
+ <style>
+    
+   
+    .accordion {
+        margin: 20px auto;
+        width: 750px;
+        flex: end;
+    }
+    .accordion li {
+        list-style: none;
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        background-color: #F6F4E1
+    }
+    .accordion li label {
+        cursor: pointer;
+    }
+   
+    .accordion .content{}
+    label::{
+        content '+';
+        margin-right: 10px;
+        font-size: 24px;
+    }
+    .accordion .content {
+        max-height:0;
+        overflow: hidden;
+        transition: max-height 1s
+    }
+    .accordion input[type="radio"]:checked + label +.content {
+        max-height: 400px;
+    }
+    input[type="radio"]{
+        display:none;
+    }
+    
+    #row1 {
+        display:flex;
+        flex: 1 1 auto;
+        background-color: #F8AEDC;
+        margin-block-start: 40px; /*remove this wehen we fix nav*/
+    }
+    #column2 {
+        flex-direction:row;
+        padding-top:40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #row2 {
+        display:flex;
+        background-color: #FFFEF5;
+    }
+    #currentlyhead {
+        padding: 40px;
+        color:#373535
+    }
+    #row3 {
+        background-color: #B2DCFF;
+    }
+   
+    #accordion {
+        width:710px;
+    }
+    #aboutme {
+        padding-right: 30px;
+    }
+    #introhead {
+        color: #FF66C4;
+        margin-block-end: 0px;
+    }
+    #introsub {
+        margin-block-start: 15px;
+        margin-block-end: 0px;
+        color: #000000
+    }
+    #h3 {
+        font-family: poppinsbold; 
+        padding-left: 40px;
+        padding-top: 25px;
+        color: #52B1FF;
+    }
+    #interests {
+        display:flex;
+        flex: 1 1 auto;
+        padding: 40px;
+        padding-top: none;
+    }
+
+    #music, #dance, #care {
+        flex: 1 1 auto;
+        text-align: center;
+    }
+    .interest {
+        font-family:poppinsbold;
+    }
+    label #first {
+        padding: 10px;
+    }
+    nav {
+        text-decoration: none;
+    }
+    h3 {
+        font-family: poppinsbold;
+        font-size:40px;
+    }
+    h1 {
+        font-size: 60px;
+    }
+    p {
+        font-size: 17px;
+    }
+
+    #currentlytitle, #h3 {
+        font-size: 50px;
+    }
+    #currentlytitle {
+        margin-bottom: 20px;
+    }
+ </style>
+</head>
+<body>
+    <div id="row1">
+        <div id="headshotC">
+            <img src="../ist263/project/images/kendallphoto.JPG" width="auto" height="615px" alt="kendallheadshot">
+        </div>
+        <div id="column2">
+            <div id="homehead"> 
+                <h1 id="introhead">Hey, I'm Kendall!</h1> 
+               <h3 id="introsub">Welcome to my portfolio website</h3>
+            </div>
+            <div id="aboutme">
+                <p> I am a sophomore studying Public Relations at Syracuse University, with a minor in Information Management and Technology. Within the field of strategic communication, I am interested in social media and digital branding. I am also fascinated by how social media and technology intersect, and I love finding new ways that communications professionals can take advantage of emerging technologies. I offer strong skills in research, design and writing; being well-versed in AP style and the adobe creative suite.</p>
+                <p> I am very involved in extracurricular activities. This past year, I have served as the graphic design chair for SU Danceworks, where I have been responsible for designing digital content and writing newsletters for the organization. Next year, I will take on the producer role, where I will assist the directors in overseeing all creative and logistic aspects of the organization. I have also been involved in Hill Communications, SU&#39;s only student-run public relations firm. These past three semesters, I have been able to work with clients in a wide range of industries ranging from healthcare to education. This website showcases the work I have done inside and outside the classroom. </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="row2">
+        <div id="currentlyhead">
+            <h3 id="currentlytitle">What I'm up to</h3>
+            <p>Click each title to learn more about what i'm currently involved in.</p>
+        </div>
+        <div id="column2">
+            <ul class="accordion">
+                <li>
+                    <input type="radio" name="accordion" id="first" checked>
+                    <label for="first">Account Supervisor- Hill Communications and Hatfield Schwartz Law Group</label>
+                    <div class=" content">
+                        <p>
+                            As an account supervisor for Hatfield Schwartz Law Group, I serve as the liason between the client and my team of associates. I meet with client representatives weekly and establish a communication plan that aligns with their objectives. Skills include social media monitoring, design and email marketing. 
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="second" checked>
+                    <label for="second">Research Assistant- the SOURCE at Syracuse University</label>
+                    <div class=" content">
+                        <p>
+                            As an undergraduate research assistant through the SOURCE at Syracuse University, I complete weekly research tasks with a team of undergraduates and faculty mentors. This semester, the team is investigating the consumer perspective on carbon neutral and sustainably-labeled goods. My work focuses on accessibility within sustainable consumption and environmental literacy.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="accordion" id="third" checked>
+                    <label for="third">Producer- SU Danceworks </label>
+                    <div class=" content">
+                        <p>
+                            As producer for SU Danceworks, Syracuse's largest student-run dance organization, I oversee all fiscal and logistical elements related to the organization and our annual spring showcase. Additionally, I work closely with the directors and assist in the oversight of the entire organization. 
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>  
+           
+    <div id="row3">
+        <div>
+            <h3 id="h3">Interests</h3>
+        </div>
+        <div id="interests"><!--PHOTOS ARE PLACEHOLDERS -->
+            <div id="music">
+                <p class="interest">Listening to music</p>
+                <img src="../ist263/project/images/kendallphoto.JPG" alt="placeholder" width="280px" height="auto">
+                <p>fun fact: I have made 120+ playlists on Spotify</p>
+            </div>
+            <div id="dance"> 
+                <p class="interest">Dance</p>
+                <img src="../ist263/project/images/kendallphoto.JPG" alt="placeholder" width="280px" height="auto">
+                <p>fun fact: I have been dancing for 15 years</p>
+            </div>
+            <div id="care">
+                <p class="interest">Self-Care</p>
+                <img src="../ist263/project/images/kendallphoto.JPG" alt="placeholder" width="280px" height="auto">
+                <p>fun fact: getting ready is my favorite part of the day</p>
+            </div>
+        </div>
+    </div>
+  
+   <footer>
+        <div class="footer">
+            <div class="footersplit">
+                <p>Designed by Kendall Hymes  &#169;2023</p>
+            </div>
+            <div class="footersplit">
+                <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="../images/linkedinlogo.png" alt=linkedin width="40px" height="auto"></a><!--find a way to make this just the linkedin logo-->
+            </div>
+        </div>
+   </footer>
+</body>
+</html>
