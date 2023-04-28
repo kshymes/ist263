@@ -50,11 +50,12 @@
         list-style: none;
         width: 100%;
         margin: 10px;
-        padding: 10px;
+        padding: 20px;
         background-color: #F6F4E1
     }
     .accordion li label {
         cursor: pointer;
+        font-family: poppinsbold;
     }
    
     .accordion .content {
@@ -68,33 +69,48 @@
     input[type="radio"]{
         display:none;
     }
+    #headshotC {
+        padding-top:75px;
+        padding-left: 75px;
+    }
     
     #row1 {
         display:flex;
         flex: 1 1 auto;
         background-color: #F8AEDC;
-        margin-block-start: 40px; /*remove this wehen we fix nav*/
+        margin-block-start: 40px;
+        max-height: 760px;
+        min-height: 760px;
     }
     #column2 {
         flex-direction:row;
         padding-top:40px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 75px;
+        padding-right: 75px;
     }
     #row2 {
         display:flex;
         background-color: #FFFEF5;
+        max-height: 575px;
+        min-height: 575px;
     }
     #currentlyhead {
         padding: 40px;
+        padding-left: 75px;
         color:#373535
+    }
+    #currentlytitle {
+        line-height: 50px;
     }
     #row3 {
         background-color: #B2DCFF;
+        max-height:650px;
+        min-height: 650px;
     }
    
     #accordion {
         width:710px;
+        padding-right: 75px;
     }
     #aboutme {
         padding-right: 30px;
@@ -117,7 +133,9 @@
     #interests {
         display:flex;
         flex: 1 1 auto;
-        padding: 40px;
+        padding-left: 75px;
+        padding-right: 75px;
+        padding-bottom: 75px;
         padding-top: none;
     }
 
@@ -127,6 +145,7 @@
     }
     .interest {
         font-family:poppinsbold;
+        font-size: 30px;
     }
     label #first {
         padding: 10px;
@@ -172,7 +191,7 @@
 
     <div id="row2">
         <div id="currentlyhead">
-            <h3 id="currentlytitle">What I'm up to</h3>
+            <h3 id="currentlytitle">What I'm <br> up to</h3>
             <p>Click each title to learn more about what i'm currently involved in.</p>
         </div>
         <div id="column2">
@@ -212,20 +231,20 @@
         <div>
             <h3 id="h3">Interests</h3>
         </div>
-        <div id="interests"><!--PHOTOS ARE PLACEHOLDERS -->
+        <div id="interests">
             <div id="music">
                 <p class="interest">Listening to music</p>
-                <img src="images_/kendallphoto.JPG" alt="placeholder" width="280px" height="auto">
+                <img src="images_/musicvector.png" alt="music" width="280px" height="auto">
                 <p>fun fact: I have made 120+ playlists on Spotify</p>
             </div>
             <div id="dance"> 
                 <p class="interest">Dance</p>
-                <img src="images_/kendallphoto.JPG" alt="placeholder" width="280px" height="auto">
+                <img src="images_/dancevector.png" alt="dance" width="280px" height="auto">
                 <p>fun fact: I have been dancing for 15 years</p>
             </div>
             <div id="care">
                 <p class="interest">Self-Care</p>
-                <img src="images_/kendallphoto.JPG" alt="placeholder" width="280px" height="auto">
+                <img src="images_/carevector.png" alt="care" width="280px" height="auto">
                 <p>fun fact: getting ready is my favorite part of the day</p>
             </div>
         </div>
@@ -237,7 +256,9 @@
                 <p>Designed by Kendall Hymes  &#169;2023</p>
             </div>
             <div class="footersplit">
-                <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="../images/linkedinlogo.png" alt=linkedin width="40px" height="auto"></a><!--find a way to make this just the linkedin logo-->
+                <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="images_/linkedinlogo.png" alt="linkedin" width="40px" height="auto" class="footercontact"></a>
+                <a href="https://twitter.com/kshymes_"><img src="images_/twitterlogo.png" alt="twitter" width="40px" height="auto" class="footercontact"></a>
+                <a href="mailto:kshymes@syr.edu"><img src="images_/maillogo.png" alt="email" width="40px" height="auto" class="footercontact"></a>
             </div>
         </div>
    </footer>
