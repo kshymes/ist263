@@ -35,7 +35,14 @@
         </ul>
      </nav> 
 
-<style> 
+<style>
+    @media only screen and (max-width: 1350px){
+        .one, .two, .three, .four, .five {
+        min-height: 600px;
+        max-height: 600px;
+    }
+    }
+
     h1{
         text-align:center;
         font-size:80px;
@@ -65,13 +72,14 @@
         min-width: 710px;
         text-align:center;
         padding-top: 100px;
+        max-width: 410px;
     }
 
     .text {
         text-align: center;
         font-size: 15px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 75px;
+        min-width: 410px;
     }
     .two {
         display: flex;
@@ -123,26 +131,25 @@
 
     #coursework {
       font-family:poppins;
-      padding: 100px;
     }
 
   
     #hscopy {
-        padding-top: 90px;
+       
     }
     
     #execcopy {
-        padding-top: 75px;
+       
     }
     #graphicscopy {
-        padding-top: 100px;
+      
     }
     #courses {
         font-size: 20px;
         font-family: poppinsbold;
     }
     #sourcecopy {
-        padding-top: 95px;
+        
     }
 </style> 
 </head>
@@ -227,8 +234,8 @@
     <p id="resumecaption">To learn about more of my experience, please see my resume!</p>
  
     <div class="resume">
-        <iframe src="../images/Kendall Hymes Resume semester 4.pdf" width="550" height="733"></iframe> <br>
-        <a href="../images/Kendall Hymes Resume semester 4.pdf" class="link">click here to download my resume</a>
+        <iframe src="images_/Kendall Hymes Resume semester 4.pdf" width="550" height="733"></iframe> <br>
+        <a href="images_/Kendall Hymes Resume semester 4.pdf" class="link">click here to download my resume</a>
     </div>   
 </div>  
             
@@ -238,7 +245,9 @@
             <p>Designed by Kendall Hymes  &#169;2023</p>
         </div>
         <div class="footersplit">
-            <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="../images/linkedinlogo.png" alt=linkedin width="40px" height="auto"></a><!--find a way to make this just the linkedin logo-->
+            <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="images_/linkedinlogo.png" alt="linkedin" width="40px" height="auto" class="footercontact"></a>
+            <a href="https://twitter.com/kshymes_"><img src="images_/twitterlogo.png" alt="twitter" width="40px" height="auto" class="footercontact"></a>
+            <a href="mailto:kshymes@syr.edu"><img src="images_/maillogo.png" alt="email" width="40px" height="auto" class="footercontact"></a>
         </div>
     </div>
 </footer>

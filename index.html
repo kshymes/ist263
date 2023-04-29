@@ -133,10 +133,18 @@
     #interests {
         display:flex;
         flex: 1 1 auto;
+        flex-wrap: wrap;
         padding-left: 75px;
         padding-right: 75px;
         padding-bottom: 75px;
         padding-top: none;
+    }
+  
+    @media only screen and (max-width: 1320px;){
+        #row3 {
+            min-height: 1200px;
+            max-height: 1200px;
+        }
     }
 
     #music, #dance, #care {
