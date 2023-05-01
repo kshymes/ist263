@@ -22,29 +22,17 @@
             <div><a href="blog.html" class="nothome" id="nh4">blog</a></div>  
         </div>
     </nav>
-<nav class="nav2">  
-    <ul>
-        <li><a href="../project05/home.html">
-            <img src="../images/design_samples/wordmark coal.png" width="80px" height="auto"></a>
-            <ul>
-                <li><a href="../project05/experience.html"> experience </a></li>
-                <li><a href= "../project05/portfolio.html">portfolio</a></li>
-                <li><a href="../project05/about.html">about</a></li>
-                <li><a href="../project05/blog.html">blog</a></li>
-            </ul>
-        </li>
-        
-        </li>
-    </ul>
- </nav> 
+
 <script>
 </script>
  <style>
-    
+    .navwide {
+        width: 100%;
+    }
    
     .accordion {
         margin: 20px auto;
-        width: 750px;
+        width: 100%;
         flex: end;
     }
     .accordion li {
@@ -70,24 +58,28 @@
     input[type="radio"]{
         display:none;
     }
-    #headshotC {
-        padding-top:75px;
-        padding-left: 75px;
-    }
     
     #row1 {
-        display:flex;
-        flex: 1 1 auto;
+       
         background-color: #F8AEDC;
         margin-block-start: 40px;
-        max-height: 760px;
         min-height: 760px;
     }
+    #row1content {
+        padding: 75px;
+    }
+    #headshot {
+        float: left;
+        padding-bottom: 30px;
+        padding-right: 40px;
+    }
+    
+  
     #column2 {
         flex-direction:row;
         padding-top:40px;
-        padding-left: 75px;
         padding-right: 75px;
+        width: 100%;
     }
     #row2 {
         display:flex;
@@ -110,14 +102,13 @@
     }
    
     #accordion {
-        width:710px;
+        width:100%;
         padding-right: 75px;
     }
-    #aboutme {
-        padding-right: 30px;
-    }
+  
     #introhead {
         color: #FF66C4;
+        margin-block-end: 0px;
         margin-block-end: 0px;
     }
     #introsub {
@@ -139,13 +130,6 @@
         padding-right: 75px;
         padding-bottom: 75px;
         padding-top: none;
-    }
-  
-    @media only screen and (max-width: 1320px;){
-        #row3 {
-            min-height: 1200px;
-            max-height: 1200px;
-        }
     }
 
     #music, #dance, #care {
@@ -179,15 +163,17 @@
     #currentlytitle {
         margin-bottom: 20px;
     }
+    
  </style>
 </head>
 <body>
     <div id="row1">
-        <div id="headshotC">
-            <img src="project/images/kendallphoto.JPG" width="auto" height="615px" alt="kendallheadshot">
+        <div id="row1content">
+        <div id="headshotC" class="row1">
+            <img src="project/images/kendallphoto.JPG" width="auto" height="615px" alt="kendallheadshot" id="headshot">
         </div>
         <div id="column2">
-            <div id="homehead"> 
+            <div id="homehead" class="row1"> 
                 <h1 id="introhead">Hey, I'm Kendall!</h1> 
                <h3 id="introsub">Welcome to my portfolio website</h3>
             </div>
@@ -196,6 +182,7 @@
                 <p> I am very involved in extracurricular activities. This past year, I have served as the graphic design chair for SU Danceworks, where I have been responsible for designing digital content and writing newsletters for the organization. Next year, I will take on the producer role, where I will assist the directors in overseeing all creative and logistic aspects of the organization. I have also been involved in Hill Communications, SU&#39;s only student-run public relations firm. These past three semesters, I have been able to work with clients in a wide range of industries ranging from healthcare to education. This website showcases the work I have done inside and outside the classroom. </p>
             </div>
         </div>
+    </div>
     </div>
 
     <div id="row2">
