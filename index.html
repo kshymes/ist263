@@ -26,13 +26,14 @@
 <script>
 </script>
  <style>
+
     .navwide {
         width: 100%;
     }
    
     .accordion {
         margin: 20px auto;
-        width: 100%;
+        max-width: 700px;
         flex: end;
     }
     .accordion li {
@@ -73,7 +74,7 @@
         float: left;
         padding-bottom: 30px;
         padding-right: 70px;
-        max-width:510px; 
+        max-width:500px; 
         height: auto;
     }
     
@@ -88,11 +89,16 @@
         display:flex;
         background-color: #FFFEF5;
         min-height: 575px;
+        min-width: 500px;
+        justify-content: center;
     }
     #currentlyhead {
         padding: 40px;
         padding-left: 75px;
-        color:#373535
+        color:#373535;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
     }
     #currentlytitle {
         line-height: 50px;
@@ -115,6 +121,7 @@
     }
     #introsub {
         margin-block-start: 15px;
+        font-size: 35px;
         margin-block-end: 0px;
         color: #000000
     }
@@ -179,6 +186,13 @@
         #introsub {
             font-size: 30px;
         }
+        #row2 {
+            flex-direction: column;
+        }
+        #currentlytitle {
+            padding-bottom: none;
+            align-content: center;
+        }
     }
     @media only screen and (max-width: 1140px){
         h1 {
@@ -215,7 +229,7 @@
 
     <div id="row2">
         <div id="currentlyhead">
-            <h3 id="currentlytitle">What I'm <br> up to</h3>
+            <h3 id="currentlytitle">What I'm up to</h3>
             <p>Click each title to learn more about what i'm currently involved in.</p>
         </div>
         <div id="column2">
@@ -279,7 +293,7 @@
             <div class="footersplit">
                 <p>Designed by Kendall Hymes  &#169;2023</p>
             </div>
-            <div class="footersplit">
+            <div class="footersplit" id="socials">
                 <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="images_/linkedinlogo.png" alt="linkedin" width="40px" height="auto" class="footercontact"></a>
                 <a href="https://twitter.com/kshymes_"><img src="images_/twitterlogo.png" alt="twitter" width="40px" height="auto" class="footercontact"></a>
                 <a href="mailto:kshymes@syr.edu"><img src="images_/maillogo.png" alt="email" width="40px" height="auto" class="footercontact"></a>
