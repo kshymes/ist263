@@ -64,6 +64,7 @@
         background-color: #F8AEDC;
         margin-block-start: 40px;
         min-height: 760px;
+        min-width: 700px;
     }
     #row1content {
         padding: 75px;
@@ -72,6 +73,8 @@
         float: left;
         padding-bottom: 30px;
         padding-right: 40px;
+        max-width:510px; 
+        height: auto;
     }
     
   
@@ -161,6 +164,34 @@
     #currentlytitle {
         margin-bottom: 20px;
     }
+
+    @media only screen and (max-width: 1400px){
+        #introsub {
+            font-size: 30px;
+        }
+    }
+
+    @media only screen and (max-width: 1240px){
+        h1 {
+            font-size: 50px;
+        }
+        #introsub {
+            font-size: 30px;
+        }
+    }
+    @media only screen and (max-width: 1140px){
+        h1 {
+            font-size: 45px;
+        }
+    }
+    @media only screen and (max-width: 670px){
+        h1 {
+            font-size: 40px;
+        }
+        #introsub {
+            font-size: 25px;
+        }
+    }
     
  </style>
 </head>
@@ -168,7 +199,7 @@
     <div id="row1">
         <div id="row1content">
         <div id="headshotC" class="row1">
-            <img src="project/images/kendallphoto.JPG" width="auto" height="615px" alt="kendallheadshot" id="headshot">
+            <img src="project/images/kendallphoto.JPG"  alt="kendallheadshot" id="headshot">
         </div>
         <div id="column2">
             <div id="homehead" class="row1"> 
