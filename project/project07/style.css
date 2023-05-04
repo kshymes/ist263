@@ -21,6 +21,23 @@
 @media only screen and (max-width: 450px){
     #socials {display: none;}
 }
+@media only screen and (max-width: 600px) {
+    .nothome {
+        font-size: 13px;
+    }
+    #wordmark {
+        width: 75px;
+        height: auto;
+    }
+    h1 {
+        font-size: 65px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .nothome {
+        font-size: 10px;
+    }
+}
 
     ul li{list-style-type: none;}
 

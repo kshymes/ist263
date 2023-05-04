@@ -22,6 +22,50 @@
         </div>
     </nav>
     <style>
+        
+        @media only screen and (max-width: 825px) {
+            #title {
+               font-size: 65px;
+            }
+            #sum {
+                font-size: 13px;
+            }
+        }
+        @media only screen and (max-width: 740px) {
+         .navwide, #writinghead, #hyper {
+            min-width: 685px;
+            align-content: center;
+        }
+        #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+        }
+    
+        }
+        @media only screen and (max-width: 700px) {
+            #title {
+                font-size: 50px;
+            }
+        }
+        @media only screen and (max-width: 645px) {
+            #row1 {
+                min-width: 100%;
+            }
+        }
+
+        @media only screen and (max-width: 565px) {
+            #title {
+                font-size: 40px;
+            }
+        }
+        @media only screen and (max-width: 390px) {
+         #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+            align-content: center;
+            padding-bottom: 75px;
+        }
+    
+        }
+
 .link {
     font-family: poppinsbold;
     color: #FFFEF5;
@@ -29,6 +73,7 @@
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 10px;
     text-decoration: none;
 }
 .link a:visited {
@@ -52,6 +97,7 @@
 #hyper {
     display:flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #description {
     text-align: center;
@@ -68,6 +114,10 @@ h1 {
         flex-wrap:wrap;
         padding-top: 75px;
     }
+    .iframe {
+        max-width: 510px;
+    }
+    
     .view {
             display: flex;
             justify-content: center;
@@ -86,23 +136,23 @@ h1 {
         }
     #row1 {
         background-color:#F8AEDC;
-        min-height: 800px;
+        min-height: 875px;
     }
     #row2 {
         background-color:#F7A1D6;
-        min-height: 800px;
+        min-height: 875px;
     }
     #row3 {
         background-color:#F58ECE;
-        min-height: 800px;
+        min-height: 875px;
     }
     #row4 {
         background-color:#F47CC6;
-        min-height: 800px;
+        min-height: 875px;
     }
     #row5 {
         background-color:#F269BD;
-        min-height: 800px;
+        min-height: 875px;
     }
     h3 {
         font-family: poppinsbold;
@@ -122,66 +172,66 @@ h1 {
     </div>
 
     <div id="writinghead">
-    <h1>Writing Samples</h1>
-    <p>Strong writing skills are essential to any good communicator. Crafting stories that make your clients stand out amongst the crowd requires writing that is clear and concise, but also conveys the personality of the organization. During the past two years at university, I have learned how to be a flexible writer by adopting different tones to effectively reach my audience. In the Spring of 2023, I took a course called Public Relations Writing: Media and Messaging. The course has allowed me to build a vast portfolio of writing samples that reflect my skills as a strategic storyteller. At the beginning of the semester, I chose one company that I write several pieces for, as if I were the public relation manager. &#42; The following information is not intended to be factual but is part of a class writing assignment from January to April 2023 the S.I. Newhouse School of Public Communications, Syracuse University. All information is intended to be sourced appropriately. &#42; </p>
+    <h1 id="title">Writing Samples</h1>
+    <p id="sum">Strong writing skills are essential to any good communicator. Crafting stories that make your clients stand out amongst the crowd requires writing that is clear and concise, but also conveys the personality of the organization. During the past two years at university, I have learned how to be a flexible writer by adopting different tones to effectively reach my audience. In the Spring of 2023, I took a course called Public Relations Writing: Media and Messaging. The course has allowed me to build a vast portfolio of writing samples that reflect my skills as a strategic storyteller. At the beginning of the semester, I chose one company that I write several pieces for, as if I were the public relation manager. &#42; The following information is not intended to be factual but is part of a class writing assignment from January to April 2023 the S.I. Newhouse School of Public Communications, Syracuse University. All information is intended to be sourced appropriately. &#42; </p>
     </div>
-    <div id="row1">
+    <div id="row2">
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/Audience Persona- Spotify (1).pdf" alt="spotifyaudiencepersona" width="510px" height="690px"></iframe>
-            <a href="images_/writingsamples/Audience Persona- Spotify (1).pdf" class="view">click to view</a>
+            <iframe src="images_/writingsamples/News Release- Spotify.pdf" alt="spotifynewsrelease" width="510px" height="690px" class="iframe"></iframe>
+            <a href="images_/writingsamples/News Release- Spotify.pdf" class="view">click to view</a>
         </div>
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/News Release- Spotify.pdf" alt="spotifynewsrelease" width="510px" height="690px"></iframe>
-            <a href="images_/writingsamples/News Release- Spotify.pdf" class="view">click to view</a>
+            <iframe src="images_/writingsamples/PESO-Spotify.pdf" alt="spotifypeso" width="510px" height="690px" class="iframe"></iframe>
+            <a href="images_/writingsamples/PESO-Spotify.pdf" class="view">click to view</a>
         </div>
     </div>
     <div id="row2">
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/News Release- Spotify.pdf" alt="spotifynewsrelease" width="510px" height="690px"></iframe>
+            <iframe src="images_/writingsamples/News Release- Spotify.pdf" alt="spotifynewsrelease" width="510px" height="690px" class="iframe"></iframe>
             <a href="images_/writingsamples/News Release- Spotify.pdf" class="view">click to view</a>
         </div>
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/PESO-Spotify.pdf" alt="spotifypeso" width="510px" height="690px"></iframe>
+            <iframe src="images_/writingsamples/PESO-Spotify.pdf" alt="spotifypeso" width="510px" height="690px" class="iframe"></iframe>
             <a href="images_/writingsamples/PESO-Spotify.pdf" class="view">click to view</a>
         </div>
     </div>
     <div id="row3">
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/Media Pitch- Spotify.pdf" alt="mediapitchspotify" width="510px" height="690px"></iframe>
+            <iframe src="images_/writingsamples/Media Pitch- Spotify.pdf" alt="mediapitchspotify" width="510px" height="690px" class="iframe"></iframe>
             <a href="../images/writingsamples/Media Pitch- Spotify.pdf" class="view">click to view</a>
         </div>
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px"></iframe>
+            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px" class="iframe"></iframe>
             <a href="images_/writingsamples/Kendall Hymes News Story.pdf" class="view">click to view</a>
         </div>
     </div>
     <div id="row4">
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px"></iframe>
+            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px" class="iframe"></iframe>
             <a href="../images/writingsamples/Kendall Hymes News Story.pdf" class="view">click to view</a>
         </div>
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px"></iframe>
+            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px" class="iframe"></iframe>
             <a href="images_/writingsamples/Kendall Hymes News Story.pdf" class="view">click to view</a>
         </div>
     </div>
     <div id="row5">
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px"></iframe>
+            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px" class="iframe"></iframe>
             <a href="images_/writingsamples/Kendall Hymes News Story.pdf" class="view">click to view</a>
         </div>
         <div>
             <h3>Danceworks Brand Guidelines</h3>
-            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px"></iframe>
+            <iframe src="images_/writingsamples/Kendall Hymes News Story.pdf" alt="starbucksnews" width="510px" height="690px" class="iframe"></iframe>
             <a href="images_/writingsamples/Kendall Hymes News Story.pdf" class="view">click to view</a>
         </div>
     </div>
