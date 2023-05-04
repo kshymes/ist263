@@ -17,46 +17,13 @@
 
 /*DO THREE MEDIA QUERIES FOR DIFFERENT WIDTHS */
 /*set max-width for experience so it doesnt smush */
-@media only screen and (min-width: 1125px){
-    .nav2 {display: none;}
-    }
-    @media only screen and (max-width: 1125px){
-    .menu {display: none;}
-    }
+
 @media only screen and (max-width: 450px){
     #socials {display: none;}
 }
 
     ul li{list-style-type: none;}
 
-    .nav2 {
-        width: 100%;
-        height: 60px;
-        background-color:#D6D0FF;
-    }
-    .nav2 ul li a{
-        display:block;
-        font-size: 15px;
-        padding: 3px 10px;
-        text-decoration: none;
-    }
-    .nav2 ul li ul{
-        display:none;
-        position:absolute;
-        background-color:#A98E79;
-    }
-    .nav2 ul li:hover ul{
-        display:block;
-    }
-    .nav2 ul li ul li{
-       width: 150px;
-    }
-    .nav2 ul li ul a:hover{
-        background-color:#D6D0FF;
-    }
-    .nav2 ul li {
-        position: relative;
-    }
 
     nav {
          

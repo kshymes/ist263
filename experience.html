@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experience</title>
     <link rel="stylesheet" href="project/project07/portfolio-style.css">
-    <link rel="stylesheet" href="../project07/experiencemobile.css" media="(max-width:1125px)">
     <nav class="navwide"> 
         <div class="navsplit"> 
             <div><a href="experience.html" class="nothome" id="nh1"> experience </a></div>
@@ -22,21 +21,42 @@
             <div><a href="blog.html" class="nothome" id="nh4">blog</a></div>  
         </div>
     </nav>
-    <nav class="nav2">  
-        <ul>
-            <li><a href="../project05/home.html">
-                <img src="../images/design_samples/wordmark coal.png" width="120px" height="auto" alt="wordmark"></a>
-                <ul>
-                    <li><a href="../project05/experience.html"> experience </a></li>
-                    <li><a href= "../project05/portfolio.html">portfolio</a></li>
-                    <li><a href="../project05/about.html">about</a></li>
-                    <li><a href="../project05/blog.html">blog</a></li>
-                </ul>
-        </ul>
-     </nav> 
+   
 
 <style>
-    
+    @media only screen and (max-width: 1300px){
+    .one, .three, .five {
+        flex-direction: column;
+        align-content: center;
+    }
+    .two, .four {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+        }
+    @media only screen and (max-width: 740px) {
+        .one, .two, .three, .four, .five, .six, .head {
+            min-width: 685px;
+        }
+        h1 {
+            font-size: 70px;
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width: 650px) {
+        h1 {
+            font-size: 60px;
+        }
+    }
+    @media only screen and (max-width: 390px) {
+        .one, .two, .three, .four, .five, .six, .head {
+            min-width: 685px;
+        }
+        h1 {
+            font-size: 60px;
+            text-align: center;
+        }
+    }
 
     h1{
         text-align:center;
@@ -114,7 +134,7 @@
     margin: 0 auto;
     width:550px;
     }
-   .violetblock {
+   .six {
     background-color: #FFFEF5;
    }
     div a {
@@ -148,7 +168,7 @@
 </head>
 <body>
 <br>
-<h1>My Experience</h1>
+<div class="head"><h1>My Experience</h1></div>
 <section id="experience">
     <div class="one">
     <div class="title" id="education">
@@ -222,7 +242,7 @@
 </div>
 </section>
 
-<div class="violetblock">
+<div class="six">
 <h1>My Resume</h1>
     <p id="resumecaption">To learn about more of my experience, please see my resume!</p>
  

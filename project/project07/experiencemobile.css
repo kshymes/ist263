@@ -11,10 +11,7 @@
 body {
     background-color:#ffffff;
 }
-.nav {
-    background-color: #AFAFB0;
-    color: #513E32;
-}
+
 .one {
     display: flex;
     flex-direction:column;
