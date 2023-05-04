@@ -13,7 +13,7 @@
         </div>
         <div class="navsplit">
             <div><a href="index.html">
-                <img src="images_/khlogo.png" width="100px" height="auto" alt="wordmark"></a>
+                <img src="images_/khlogo.png" width="100px" height="auto" alt="wordmark" id="wordmark"></a>
             </div>
         </div>
         <div class="navsplit">
@@ -21,21 +21,7 @@
             <div><a href="blog.html" class="nothome" id="nh4">blog</a></div>  
         </div>
     </nav>
-    <nav class="nav2">  
-        <ul>
-            <li><a href="../project05/home.html">
-                <img src="../images/design_samples/wordmark coal.png" width="80px" height="auto"></a>
-                <ul>
-                    <li><a href="../project05/experience.html"> experience </a></li>
-                    <li><a href= "../project05/portfolio.html">portfolio</a></li>
-                    <li><a href="../project05/about.html">about</a></li>
-                    <li><a href="../project05/blog.html">blog</a></li>
-                </ul>
-            </li>
-            
-            </li>
-        </ul>
-     </nav> 
+    
      <style>
         h1 {
             font-size:80px;
@@ -48,8 +34,7 @@
             color: #FFFEF5;
             size:30px;
             padding: 30px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            margin: 10px;
             width: 200px;
             text-decoration: none;
         }
@@ -84,6 +69,28 @@
         }
         #clearblock {
             min-height: 200px;
+        }
+        @media only screen and (max-width: 800px) {
+            #description {
+                font-size: 20px;
+            }
+        }
+        @media only screen and (max-width: 600px) {
+            .nothome {
+                font-size: 13px;
+            }
+            #wordmark {
+                width: 75px;
+                height: auto;
+            }
+            h1 {
+                font-size: 65px;
+            }
+        }
+        @media only screen and (max-width: 450px) {
+            .nothome {
+                font-size: 10px;
+            }
         }
      </style>
 </head>
