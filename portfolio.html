@@ -7,6 +7,7 @@
     <title>Portfolio</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="project/project07/portfolio-style.css">
+    <a href="#hyper" class="skip">Skip to Content</a>
     <nav class="navwide"> 
         <div class="navsplit"> 
             <div><a href="experience.html" class="nothome" id="nh1"> experience </a></div>
@@ -24,6 +25,21 @@
     </nav>
     
      <style>
+        .skip {
+        padding: 5px;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        left: -999px;
+        font-family: poppinsbold;
+        color: #373535;
+        transform: 0.3s;
+    }
+    .skip:focus {
+        position: static;
+        left: 10px;
+    }
+    
         h1 {
             font-size:80px;
             color: #F8AEDC;
