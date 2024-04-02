@@ -101,17 +101,18 @@
     #row2 {
         display:flex;
         background-color: #FFFEF5;
-        min-height: 575px;
+        min-height: 500px;
         min-width: 500px;
         justify-content: center;
     }
     #currentlyhead {
-        padding: 40px;
+        padding: 60px;
         padding-left: 75px;
         color:#373535;
         display:flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
     #currentlytitle {
         line-height: 50px;
@@ -119,6 +120,7 @@
     #row3 {
         background-color: #B2DCFF;
         min-height: 650px;
+        max-height: 850px;
         min-width: 560px;
     }
    
@@ -158,6 +160,10 @@
         flex: 1 1 auto;
         text-align: center;
     }
+
+    #musiccaption {
+        Margin-left:40px; 
+    }
     .interest {
         font-family:poppinsbold;
         font-size: 30px;
@@ -179,11 +185,15 @@
         font-size: 17px;
     }
 
-    #currentlytitle, #h3 {
-        font-size: 50px;
+    #h3 {
+        font-size: 40px;
     }
     #currentlytitle {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    #top3 {
+        align-content: flex-start;
     }
 
     @media only screen and (max-width: 1400px){
@@ -231,8 +241,8 @@
                <h3 id="introsub">Welcome to my portfolio website</h3>
             </div>
             <div id="aboutme">
-                <p> I am a junior studying Public Relations at Syracuse University, with a minor in Information Management and Technology. Within the field of strategic communication, I am interested in social media and other digital platforms. I am also fascinated by how social media and technology intersect, and I love finding new ways that communications professionals can take advantage of emerging technologies. I offer strong skills in research, design and writing; being well-versed in AP style and the Adobe Creative Suite.</p>
-                <p> I am very involved in extracurricular activities. My sophomore year, I served as the graphic design chair for SU Danceworks, where I was responsible for designing digital content and writing newsletters for the organization. This year, I’ve taken on the producer role, where I assist the directors in overseeing all creative and logistic aspects of the organization. I have also been involved in Hill Communications, SU&#39;s only student-run public relations firm. These past four semesters, I have been able to work with clients in a wide range of industries ranging from healthcare to education. This website showcases the work I have done inside and outside the classroom.</p>
+                <p> I am a junior studying Public Relations at Syracuse University minoring in Information Management Technology and Sociology. Within strategic communications, I am interested in the diversity of digital platforms. I am fascinated by the ways that social media and technology intersect, and I love finding new ways that communications professionals can take advantage of emerging technologies. I offer strong skills in research, design and writing; being well-versed in AP style and the Adobe Creative Suite.</p>
+                <p> I am very involved in extracurricular activities. I have been involved with SU Danceworks, the largest student-run and auditions based dance organization on campus, since I came to school. From general cast member to graphics chair, to producer and now director, this organization has been instrumental to my growth as a creative and leader. I have also been involved in Hill Communications, SU&#39;s only student-run public relations firm. These past six semesters, I have been able to work with clients in a wide range of industries ranging from healthcare to education. This website showcases the work I have done inside and outside the classroom; I hope you enjoy!</p>
             </div>
         </div>
     </div>
@@ -240,36 +250,27 @@
 
     <div id="row2">
         <div id="currentlyhead">
-            <h3 id="currentlytitle">What I'm up to</h3>
-            <p>Click each title to learn more about what i'm currently involved in.</p>
+            <h3 id="currentlytitle">What I'm Up To</h3>
+            <p>Click each title to learn more about my current projects.</p>
         </div>
         <div id="column2">
             <ul class="accordion">
                 <li>
                     <input type="radio" name="accordion" id="first" checked>
-                    <label for="first">Account Supervisor- Hill Communications and Hatfield Schwartz Law Group</label>
+                    <label for="first">Account Supervisor- Hill Communications and Frintz Photos</label>
                     <div class=" content">
                         <p>
-                            As an account supervisor for Hatfield Schwartz Law Group, I serve as the liason between the client and my team of associates. I meet with client representatives weekly and establish a communication plan that aligns with their objectives. Skills include social media monitoring, design and email marketing. 
+                            As an account supervisor for Frintz photos, I serve as the liaison between the client and my team of associates. I meet with client representatives weekly and establish a communication plan that aligns with their objectives. Skills include social media monitoring, design and email marketing.
                         </p>
                     </div>
                 </li>
                 <li>
                     <input type="radio" name="accordion" id="second" checked>
-                    <label for="second">A&R Intern- NWS Music Group</label>
+                    <label for="second">Co-Director- Syracuse Danceworks</label>
                     <div class=" content">
                         <p>
-                            As an artists and repertoire intern for a specialty recording company, I was responsible for finding and recruiting emerging artists by using music analytic platforms and streaming services to monitor trends within the industry. Additionally, I would work assist in the promotion of current signed artists.                        </p>
-                    </div>
-                </li>
-                <li>
-                    <input type="radio" name="accordion" id="third" checked>
-                    <label for="third">Producer- SU Danceworks </label>
-                    <div class=" content">
-                        <p>
-                            As producer for SU Danceworks, Syracuse's largest student-run dance organization, I oversee all fiscal and logistical elements related to the organization and our annual spring showcase. Additionally, I work closely with the directors and assist in the oversight of the entire organization. 
-                        </p>
-                    </div>
+                            As co-director of Syracuse Danceworks, I oversee the entire production process of our annual showcase, making all final creative and executive decisions with the best interest of Danceworks in mind. Additionally, I work closely with other board members and university faculty to ensure smooth coordination of logistics like budgeting and space allocations.
+                        </div>
                 </li>
             </ul>
         </div>
@@ -277,26 +278,47 @@
            
     <div id="row3">
         <div>
-            <h3 id="h3">Interests</h3>
+            <h3 id="h3">Current Favorites</h3>
+            <p id="musiccaption">I like listening to music</p>
         </div>
         <div id="interests">
             <div id="music">
-                <p class="interest">Listening to music</p>
-                <img src="images_/musicvector.png" alt="music" width="280px" height="auto">
-                <p>fun fact: I have made 120+ playlists on Spotify</p>
+                <p class="interest">Playlists</p>
+                <div>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6dtDTbVBQ9QwsNaqEnjsOT?utm_source=generator" width="85%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                    
+                </div>
+                    <div>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7bvmGyFDwpHNRRRZJ0AHvn?utm_source=generator" width="85%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                    
+                    </div>
+                    <div>
+                        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/27ThgFMUAx3MXLQ297DzWF?utm_source=generator" width="85%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                    
+                    </div>
+                <p>Luv 4 Rent, Negro Swan, Hive Mind</p>
             </div>
+
             <div id="dance"> 
-                <p class="interest">Dance</p>
-                <img src="images_/dancevector.png" alt="dance" width="280px" height="auto">
-                <p>fun fact: I have been dancing for 15 years</p>
+                <p class="interest">Meals</p>
+                <ul id="top3"><!--change this and figure out how to fix. for the playlist sections set a max widths-->
+                    <li>google</li>
+                    <li>google</li>
+                    <li>google</li>
+                </ul>
             </div>
             <div id="care">
-                <p class="interest">Self-Care</p>
-                <img src="images_/carevector.png" alt="care" width="280px" height="auto">
-                <p>fun fact: getting ready is my favorite part of the day</p>
+                <p class="interest">Products</p>
+                <div>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5Q0gCc81NCiK3ctQRo4P8c?utm_source=generator" width="85%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3z4HrpXpmjQdMAUJhf0KPJ?utm_source=generator" width="85%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div>
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7MZbe8MPRxjbQoTVe13w5M?utm_source=generator" width="85%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>               
+                </div>
+                <p>My Spotify is Kendall Hymes</p>
             </div>
         </div>
-    </div>
+     
   
    <footer>
         <div class="footer">
