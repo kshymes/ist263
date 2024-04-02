@@ -42,17 +42,17 @@
     }
     
     @media only screen and (max-width: 1300px){
-    .one, .three, .five {
+    .one, .three, .five, .seven {
         flex-direction: column;
         align-content: center;
     }
-    .two, .four {
+    .two, .four, .six, .eight {
         flex-direction: column-reverse;
         align-items: center;
     }
         }
     @media only screen and (max-width: 740px) {
-        .one, .two, .three, .four, .five, .six, .head {
+        .one, .two, .three, .four, .five, .six, .seven, .eight, .nine .head {
             min-width: 685px;
         }
         h1 {
@@ -66,7 +66,7 @@
         }
     }
     @media only screen and (max-width: 390px) {
-        .one, .two, .three, .four, .five, .six, .head {
+        .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .head {
             min-width: 685px;
         }
         h1 {
@@ -77,7 +77,7 @@
 
     h1{
         text-align:center;
-        font-size:80px;
+        font-size:70px;
         color: #FF66C4;
         margin-block-start: 40px;
     }
@@ -132,7 +132,21 @@
         justify-content: space-evenly;
         background-color: #FFC2E8;
     }
-    
+    .six {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #FFADE0;
+    }
+    .seven {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #FF99D8;
+    }
+    .eight {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #FF85D0;
+    }
     .resume .link {
         display:flex;
         justify-content: center;
@@ -148,7 +162,7 @@
     margin: 0 auto;
     width:550px;
     }
-   .six {
+   .nine {
     background-color: #FFFEF5;
    }
     div a {
@@ -174,18 +188,25 @@
     <div class="one">
     <div class="title" id="education">
         <h2>S.I. Newhouse School at <br> Syracuse University</h2>
-        <h5>B.S Public Relations Minor Information and Technology</h5>
+        <h5>B.S Public Relations Minors Information Technology and Sociology</h5>
     </div>
     <div class="text">
         <div id="coursework">
         <p id="courses">notable courses</p>
             <div>
+                Public Relations Principles and Practices <br>
                 PR Writing: Media and Messaging <br>
                 Public Relations Research <br>
-                Social Media and Society <br>
+                Content Optimization for PR Writing <br>
+                Public Relations Management and Leadership <br>
+                Crisis Communications <br>
                 Introduction to Graphic Design <br>
+                Trendspotting in Digital Media <br>
+                Information Technologies <br>
                 Human-Centered Design <br>
-                Introduction to Front-End Web Development <br>
+                Introduction to Front-end Web Development <br>
+                Advanced Front-end Web Development <br>
+                Influencers in the Network <br>
                 </div>
             </div>
         </div>
@@ -193,24 +214,23 @@
 </div>
 <div class="two">
     <div class="text">
-        <p id="graphicscopy">
-            My role as graphic design chair for SU Danceworks has given me the invaluable opportunity to further my professional experience in strategic communications for an organization that I am passionate about. Since April 2022, I have been responsible for establishing and maintaining online brand guidelines, writing monthly newsletters, and designing all social media content and promotional materials for events and performances. Additionally, I collaborated with the public relations chairs to create videos and coordinate photoshoots in the promotion of our showcase in March 2023.
-            <div><a href= "portfolio-dw.html" class="link">see more here</a></div>
+        <p id="execcopy">
+            Perhaps one of the most rewarding opportunities I’ve had thus far was the chance to serve on the Danceworks executive board. Serving as co-producer for the 2023-2024 year and co-director of the 2024-2025 year, I have been in charge of all creative and logistical aspects of the organization and overseeing 15 board members in executing their designated tasks. Additionally, I have been responsible for overseeing the entire production for our spring show. Seeing all the dances come together and our visions coming to life has been a dream come true.
         </p>
     </div>
-    <div class="title" id="dwgraphics">
-        <h2>Graphic Designer for <br> SU Danceworks</h2>
-        <h5>Spring 2022-Spring 2023</h5>
+    <div class="title" id="dwexec">
+        <h2>Executive Board for <br> SU Danceworks</h2>
+        <h5>Spring 2023- Present</h5>
     </div>
 </div>
 <div class="three">
-    <div class="title" id="source">
-        <h2>SOURCE Undergraduate <br>Research Assistant</h2>
-        <h5> Winter 2022- Present</h5>
+    <div class="title" id="burnhampark">
+        <h2>Burnham Park <br>Account Supervisor</h2>
+        <h5> Fall 2023</h5>
     </div>
-    <div class="text" id="sourcecopy">
+    <div class="text" id="bpcopy">
         <p>
-            My latest project, I began working as a research assistant through Syracuse’s SOURCE program in January 2023. Working under Dr. Erika Schneider, Regina Lutrell; and alongside undergraduate peers. Throughout the spring 2023 semester, I will be researching organizations’ efforts to become more sustainable, and their public’s attitudes toward sustainable consumption. Recently, the team has been utilizing new artificial intelligence tools to determine how it could potentially benefit the research process.
+            My experience with the Burnham Park Association showed me how website design, branding and public relations all come together. During fall of 2023, I led a group of five associates in rebranding BPA including a new logo, brand guide and website. This project was a great combination of my technological and creative skills, and blah blah blah
             <div><a href= "portfolio.html" class="link">see more here</a></div>
         </p>
     </div>
@@ -218,45 +238,84 @@
 
 <div class="four">
     <div class="text">
-        <p id="hscopy"> 
-            In the spring of 2023, I was promoted to an account supervisor for Hill Communications, Syracuse University’s student-run PR firm. Hatfield & Schwartz is a law firm based in Cedar Knolls, New Jersey; and it specializes in employment law.  H&S was a new client with the firm, and it was very rewarding to build this new relationship with our firm. I was responsible for meeting with the client to discuss objectives, come up with a strategic plan for the course of our contract period, and delegate tasks to my associate members.
+        <p id="nwscopy"> 
+            NWS Music Group is a newer record label founded by Nick Raphael and Christian Tattersfield, and it is branched off of Good Soldier Publishing. NWS focuses on discovering new and exciting talent in the music industry, helping them develop their sound and image. As an artists and repertoire intern, I was responsible for researching emerging artists and reaching out to discuss potential deals with them.
             <div><a href= "portfolio-hc.html" class="link">see more here</a></div>
         </p>
     </div>
-    <div class="title" id="hs">
-        <h2>Account Supervisor for Hatfield Schwartz Law Group</h2>
-        <h5> Spring 2023</h5>
+    <div class="title" id="nws">
+        <h2>A&#38;R Intern at NWS Music</h2>
+        <h5> Summer 2023</h5>
     </div>
 </div>
 
 <div class="five">
-    <div class="title" id="accountexec">
-        <h2>Account Executive for <br> Newhouse PR</h2>
-        <h5>Fall 2022</h5>
+    <div class="title" id="dwgraphics">
+        <h2>Graphic Design Chair for <br> SU Danceworks</h2>
+        <h5>Spring 2022-Spring 2023</h5>
     </div>
     <div class="text">
-        <p id="execcopy">
-            In the Fall of 2022, I had the bragging rights of saying that I did the public relations for the Newhouse publications department. This was a great opportunity for me to build connections within my department of study. Throughout the semester I conducted competitive research on the social media presence of competing public relations programs, and made suggestions for things that we could adopt to the Newhouse PR social media accounts. I also helped create and maintain a social media content calendar for the social media accounts. As an account executive, I was responsible for keeping minutes during our meetings and preparing the budget.
+        <p id="graphicscopy">
+            My role as graphic design chair for SU Danceworks has given me the invaluable opportunity to further my professional experience in strategic communications for an organization that I am passionate about. During the 2022-2023 school year, I was responsible for establishing and maintaining online brand guidelines, writing monthly newsletters, and designing all social media content and promotional materials for events and performances. Additionally, I worked with the public relations chairs to create videos and coordinate photoshoots in the promotion of our showcase in March 2023.
             <div><a href= "portfolio-hc.html" class="link">see more here</a></div>
         </p>
     </div>
 </div>
 </section>
-
 <div class="six">
+    <div class="text">
+        <p id="sourcecopy"> 
+            I began working as a research assistant through Syracuse’s SOURCE program in January 2023. Working under Dr. Erika Schneider, Regina Lutrell, and alongside undergraduate peers. Throughout the spring 2023 semester, I researched organizations’ efforts to become more sustainable, and their public’s attitudes toward sustainable consumption. Recently, the team has been utilizing new artificial intelligence tools to determine how it could potentially benefit the research process.
+            <div><a href= "portfolio-hc.html" class="link">see more here</a></div>
+        </p>
+    </div>
+    <div class="title" id="source">
+        <h2>Undergraduate Research<br>Assistant at the SOURCE</h2>
+        <h5> Spring 2023</h5>
+    </div>
+</div>
+</section>
+<div class="seven">
+    <div class="title" id="hs">
+        <h2>Account Supervisor for Hatfield Schwartz Law Firm</h2>
+        <h5>Spring 2023</h5>
+    </div>
+    <div class="text">
+        <p id="hscopy">
+            In the spring of 2023, I was promoted to an account supervisor for Hill Communications, Syracuse University’s student-run PR firm. Hatfield & Schwartz is a law firm based in Cedar Knolls, New Jersey; and it specializes in employment law.  H&S was a new client with the firm, and it was very rewarding to build this new relationship with our firm. I was responsible for meeting with the client to discuss objectives, come up with a strategic plan for the course of our contract period, and delegate tasks to my associate members.
+            <div><a href= "portfolio-hc.html" class="link">see more here</a></div>
+        </p>
+    </div>
+</div>
+</section>
+<div class="eight">
+    <div class="text">
+        <p id="nhprcopy"> 
+            In the Fall of 2022, I had the bragging rights of saying that I did the public relations for the Newhouse publications department. This was a great opportunity for me to build connections within my department of study. Throughout the semester I conducted competitive research on the social media presence of competing public relations programs, and made suggestions for things that we could adopt to the Newhouse PR social media accounts. I also helped create and maintain a social media content calendar for the social media accounts. As an account executive, I was responsible for keeping minutes during our meetings and preparing the budget.
+            <div><a href= "portfolio-hc.html" class="link">see more here</a></div>
+        </p>
+    </div>
+    <div class="title" id="newhousepr">
+        <h2>Account Executive for <br> Newhouse PR</h2>
+        <h5> Fall 2022</h5>
+    </div>
+</div>
+</section>
+
+<div class="nine">
 <h1>My Resume</h1>
     <p id="resumecaption">To learn about more of my experience, please see my resume!</p>
  
     <div class="resume">
-        <iframe src="images_/Kendall Hymes Resume semester 4.pdf" width="550" height="733"></iframe> <br>
-        <a href="images_/Kendall Hymes Resume semester 4.pdf" class="link">click here to download my resume</a>
+        <iframe src="images_/kendallHymesResume.pdf" width="550" height="733"></iframe> <br>
+        <a href="images_/kendallHymesResume.pdf" class="link">click here to download my resume</a>
     </div>   
 </div>  
             
 <footer>
     <div class="footer">
         <div class="footersplit">
-            <p>Designed by Kendall Hymes  &#169;2023</p>
+            <p>Designed by Kendall Hymes  &#169;2024</p>
         </div>
         <div class="footersplit">
             <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="images_/linkedinlogo.png" alt="linkedin" width="40px" height="auto" class="footercontact"></a>
