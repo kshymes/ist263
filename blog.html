@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Writing Samples</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="project/project07/portfolio-style.css">
+    <a href="writinghead" class="skip">Skip to Content</a>
     <nav class="navwide"> 
         <div class="navsplit"> 
             <div><a href="experience.html" class="nothome" id="nh1"> experience </a></div>
@@ -23,18 +24,358 @@
         </div>
     </nav>
     <style>
-        h1 {
-            font-size: 80px;
-            color: #52B1FF;
+        .skip {
+        padding: 5px;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        left: -999px;
+        font-family: poppinsbold;
+        color: #373535;
+        transform: 0.3s;
+    }
+    .skip:focus {
+        position: static;
+        left: 10px;
+    }
+        
+        @media only screen and (max-width: 825px) {
+            #title {
+               font-size: 65px;
+            }
+            #sum {
+                font-size: 13px;
+            }
         }
+        @media only screen and (max-width: 740px) {
+         .navwide, #writinghead, #hyper {
+            min-width: 685px;
+            align-content: center;
+        }
+        #row1, #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+        }
+    
+        }
+        @media only screen and (max-width: 700px) {
+            #title {
+                font-size: 50px;
+            }
+        }
+        @media only screen and (max-width: 645px) {
+            
+        }
+
+        @media only screen and (max-width: 565px) {
+            #title {
+                font-size: 40px;
+            }
+        }
+        @media only screen and (max-width: 390px) {
+        #row1, #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+            align-content: center;
+            padding-bottom: 75px;
+        }
+    
+        }
+
+h1 {
+        color: #52B1FF;
+        font-size: 70px;
+        text-align: center;
+        }
+    #row1, #row2, #row3, #row4, #row5 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+        padding-top: 75px;
+    }
+    .iframe {
+        max-width: 510px;
+    }
+    
+    .view {
+            display: flex;
+            justify-content: center;
+            font-family: poppinsbold;
+            color: #FFFEF5;
+            text-decoration: none;
+        }
+    .view a:visited {
+            text-decoration: none;
+        }
+    #writinghead {
+        text-align: center;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        }
+    #row1 {
+        min-height: 300px;
+    }
+    #row2 {
+        min-height: 300px;
+    }
+    #crisis3 {  
+        border: 10px solid #52B1FF;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #crisis2 {
+        border: 10px solid #85C8FF;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #crisis1 {
+        border: 10px solid #ADDAFF;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #twins {
+        border: 10px solid #D6EDFF;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #music3 {
+        border: 10px solid #ADDAFF;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #music2 {
+        border: 10px solid #85C8FF;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #music1 {
+        border: 10px solid #52B1FF;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        font-family: poppinsbold;
+        text-align: center;
+    }
+    .description {
+        font-size: 13px;
+        text-align:left;
+        max-width: 200px;
+
+    }
+    #sum {
+        font-size: 16px;
+    }
+    #crisis3 .sample {
+        color: #52B1FF;
+    }
+    #crisis2 .sample {
+        color: #85C8FF;
+    }
+    #crisis1 .sample {
+        color: #ADDAFF;
+    }
+    #twins .sample {
+        color: #D6EDFF;
+    }
+    #music3 .sample {
+        color: #ADDAFF;
+    }
+    #music2 .sample {
+        color: #85C8FF;
+    }
+    #music1 .sample {
+        color: #52B1FF;
+    }
+    .content {
+        display: flex;
+        justify-content: space-around;
+    }
+    .links {
+        display: flex;
+        justify-content: space-around;
+        font-family: poppinsbold;
+    }
+    .links a {
+       text-decoration: none;
+       color:#373535
+    }
+    .links a:visited {
+        text-decoration: none;
+    }
+    .spotify {
+        color: #FF66C4;
+    }
     </style>
+    
 </head>
 <body>
-    <h1> Coming Soon</h1>
+
+    <div id="writinghead">
+    <h1 id="title">Blog</h1>
+    </div>
+    
+    <div id="row1">
+        <div id="crisis3">
+            <br>
+            <h2>Crisis Blog 3</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/blogs/apology.jpg" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>The practice of apologizing has become a critical skill for public figures. From insensitive comments, to misjudgements, influencers often find themselves in the public eye for the wrong reasons. It is important for influencers to craft apologies with care and genuinity, so they can put their best foot forward and move past the situation. However, this is easier said than done.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+               <a href="blog-crisis3.html" class="sample"> Read Here!</a>
+            </div>
+            <br>
+        </div>
+        <div id="crisis2">
+            <h2>Crisis Blog 2</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/blogs/recall.jpg" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>During the intricate process of product manufacturing and distribution, unexpected challenges can occur, compromising the safety of consumers and the reputation of organizations. A recent instance of this that exemplifies product recall and crisis management is Quaker Oats, a popular food company that specializes in various breakfast items.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <a href="blog-crisis2.html" class="sample"> Read Here!</a>
+            </div>
+            <br>
+        </div>
+    </div>
+
+    <div id="row2">
+        <div id="crisis1">
+            <br>
+            <h2>Crisis Blog 1</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/blogs/pepsi.png" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>Organizations have the responsibility to contribute positively to society. When tragedy strikes, there is opportunity for organizations to acknowledge the event and extend support. However, challenge lies in deciding when it is appropriate for organizations to chime in on sensitive events...</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <a href="blog-crisis1.html" class="sample">Read Here!</a>
+            </div>
+        </div>
+        <div id="twins">
+            <br>
+            <h2>Digital Twins in PR Research</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/blogs/twins.webp" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>The public relations industry is all about adaptation. Given the dynamic landscape of the media industry, the paradigm is constantly changing, and professionals must remain ahead of the curve to ensure that they are using cutting-edge strategies to maintain relationships with their audiences.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <a href="blog-twins.html" class="sample">Read Here!</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="row3">
+        <div id="music3">
+            <br>
+            <h2>Music In My Life 3</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/blogs/wrapped.jpeg" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>Spotify Wrapped came out a little over 2 weeks ago and, while I do track my listening habits using other websites like skiley.net and last.fm, I was still surprised by Spotify’s interpretation of my listening habits. While I wouldn’t say that my Wrapped is inherently bad or embarrassing, each year I end up disappointed with my statistics and make listening goals for the next year. Here is my Wrapped for the year, along with three of my listening resolutions going into 2024.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <a href="blog-music3.html" class="sample">Read Here!</a>
+            </div>
+            <br>
+        </div>
+        <div id="music2">
+            <br>
+            <h2>Music In My Life 2</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/blogs/kendrick.jpeg" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>A common criticism of hip-hop and R&B from people who don’t listen to the family of styles is that artists rap about seemingly meaningless things. Rap is poetry; it’s a mode of storytelling, and artists have used it as a vessel for telling stories for decades. I will be highlighting some of my favorite storytelling moments within hip-hop, from individual songs, to albums; each of these works has a message that is important to me.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <a href="blog-music2.html" class="sample">Read Here!</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="row4">
+        <div id="music1">
+            <br>
+            <h2>Music In My Life 1</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/blogs/violin.png" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>Music has been a part of my life for as long as I can remember, and it has been manifested in many forms. I spent the first 13 years of my life playing various instruments. I started playing the violin when I was 3 years old after I befriended the daughter of a violin teacher at my preschool. I trained under the Suzuki method of violin for 10 years.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <a href="blog-music1.html" class="sample">Read Here!</a>
+            </div>
+            <br>
+        </div>
+    </div>
+
     <footer>
-        <p>&#169;2023</p>
-        <p>Designed by Kendall Hymes</p>
-        <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"></a><!--find a way to make this just the linkedin logo-->
+        <div class="footer">
+            <div class="footersplit">
+                <p>Designed by Kendall Hymes  &#169;2024</p>
+            </div>
+            <div class="footersplit">
+                <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="images_/linkedinlogo.png" alt="linkedin" width="40px" height="auto" class="footercontact"></a>
+                <a href="https://twitter.com/kshymes_"><img src="images_/twitterlogo.png" alt="twitter" width="40px" height="auto" class="footercontact"></a>
+                <a href="mailto:kshymes@syr.edu"><img src="images_/maillogo.png" alt="email" width="40px" height="auto" class="footercontact"></a>
+            </div>
+        </div>
    </footer>
 </body>
 </html>
