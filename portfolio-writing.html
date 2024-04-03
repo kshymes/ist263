@@ -149,24 +149,45 @@ h1 {
         padding-right: 40px;
         }
     #row1 {
-        background-color:#F8AEDC;
-        min-height: 875px;
+        min-height: 300px;
     }
     #row2 {
-        background-color:#F7A1D6;
-        min-height: 875px;
+        min-height: 300px;
     }
-    #row3 {
-        background-color:#F58ECE;
-        min-height: 950px;
+    #beakandskiff {  
+        border: 10px solid #FFADE0;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
-    #row4 {
-        background-color:#F47CC6;
-        min-height: 950px;
+    #boeing {
+        border: 10px solid #FF99D8;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
-    #row5 {
-        background-color:#F269BD;
-        min-height: 875px;
+    #hs {
+        border: 10px solid #FF85D0;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #spotify {
+        border: 10px solid #FF66C4;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    h2 {
+        text-align: center;
     }
     h3 {
         font-family: poppinsbold;
@@ -174,11 +195,43 @@ h1 {
     }
     .description {
         font-size: 13px;
-        text-align: center;
+        text-align:left;
+        max-width: 200px;
 
     }
     #sum {
         font-size: 16px;
+    }
+    #beakandskiff .sample {
+        color: #FFADE0;
+    }
+    #boeing .sample {
+        color: #FF99D8;
+    }
+    #hs .sample {
+        color: #FF85D0;
+    }
+    #spotify .sample {
+        color: #FF66C4;
+    }
+    .content {
+        display: flex;
+        justify-content: space-around;
+    }
+    .links {
+        display: flex;
+        justify-content: space-around;
+        font-family: poppinsbold;
+    }
+    .links a {
+       text-decoration: none;
+       color:#373535
+    }
+    .links a:visited {
+        text-decoration: none;
+    }
+    .spotify {
+        color: #FF66C4;
     }
     </style>
     
@@ -186,88 +239,92 @@ h1 {
 <body>
 
     <div id="hyper">
-        <a href="portfolio-writing.html" class="link" id="l1">Writing Samples</a>
-        <a href="portfolio-design.html" class="link" id="l2">Design Samples</a>
-        <a href="portfolio-stage.html" class="link" id="l3">The Syracuse Stage</a>
-        <a href="portfolio-dw.html" class="link" id="l4">SU Danceworks</a>
-        <a href="portfolio-hc.html" class="link" id="l5">Hill Communications</a>
+        <a href="portfolio-writing.html" class="link" id="l1">Writing</a>
+        <a href="portfolio-design.html" class="link" id="l2">Graphic Design</a>
+        <a href="portfolio-stage.html" class="link" id="l3">Web Design</a>
+        <a href="portfolio-dw.html" class="link" id="l4">Crisis Communications</a>
+        <a href="portfolio-hc.html" class="link" id="l5">Case Studies</a>
     </div>
 
     <div id="writinghead">
     <h1 id="title">Writing Samples</h1>
-    <p id="sum">Enjoy my writing samples from these organizations </p>
-    </div>
-    <div id="row1">
-        <div>
-            <h3>Fact Sheet- Spotify</h3>
-            <iframe src="images_/writingsamples/Fact Sheet- Spotify.pdf" alt="spotifynewsrelease" width="510px" height="690px" class="iframe"></iframe>
-            <a href="images_/writingsamples/Fact Sheet- Spotify.pdf" class="view">view my fact sheet</a>
-            <p class="description">This fact sheet provides details on Spotify's upcoming anniversary celebration.</p>
-        </div>
-        <div>
-            <h3>News Release- Spotify</h3>
-            <iframe src="images_/writingsamples/News Release final- Spotify.pdf" alt="spotifypeso" width="510px" height="690px" class="iframe"></iframe>
-            <a href="images_/writingsamples/News Release final- Spotify.pdf" class="view">view my news release</a>
-            <p class="description">This news release provides details on Spotify's upcoming anniversary celebration.</p>
-        </div>
-    </div>
-    <div id="row2">
-        <div>
-            <h3>Audience Persona-Spotify</h3>
-            <iframe src="images_/writingsamples/Audience Persona- Spotify (2).pdf" alt="spotifynewsrelease" width="510px" height="690px" class="iframe"></iframe>
-            <a href="images_/writingsamples/Audience Persona- Spotify (2).pdf" class="view">view my audience persona</a>
-            <p class="description">I created 2 ficticious personas of an ideal Spotify consumer.</p>
-        </div>
-        <div>
-            <h3>PESO Model Application-Spotify</h3>
-            <iframe src="images_/writingsamples/PESO-Spotify (1).pdf" alt="spotifypeso" width="510px" height="690px" class="iframe"></iframe>
-            <a href="images_/writingsamples/PESO-Spotify (1).pdf" class="view">view my PESO application</a>
-            <p class="description">An analysis on how Spotify uses the PESO model for their Wrapped campaign.</p>
-        </div>
-    </div>
-    <div id="row3">
-        <div>
-            <h3>Alissa Neil Biography</h3>
-            <iframe src="images_/writingsamples/Biography.pdf" alt="mediapitchspotify" width="510px" height="690px" class="iframe"></iframe>
-            <a href="images_/writingsamples/Biography.pdf" class="view">view my biography</a>
-            <p class="description">Alissa Neil is the founder of Alissa Neil PR.</p>
-        </div>
-        <div>
-            <h3>Newsjacking Social Media Post</h3>
-            <img src="images_/writingsamples/newsjacking.png" alt="starbucksnews" width="510px" height="auto" class="iframe"></auto>
-            <a href="images_/writingsamples/export_1677178513318.mov" class="view">view my post</a>
-            <p class="description">A social media post for Spotify following a popular TikTok trend.</p>
-        </div>
-    </div>
-    <div id="row4">
-        <div>
-            <h3>Media Pitch- Spotify</h3>
-            <iframe src="images_/writingsamples/Media Pitch- Spotify (1).pdf" alt="starbucksnews" width="510px" height="690px" class="iframe"></iframe>
-            <a href="images_/writingsamples/Media Pitch- Spotify (1).pdf" class="view">view my media pitch</a>
-            <p class="description">A pitch to journalists for coverage of Spotify's new AI DJ</p>
-        </div>
-        <div>
-            <h3>eNewsletter</h3>
-            <img src="images_/writingsamples/newsletter.png" alt="starbucksnews" width="510px" height="auto" class="iframe"></img>
-            <a href="https://mailchi.mp/249d98189a51/help-support-the-next-generation-of-artists" class="view">view my newsletter</a>
-            <p class="description">An enewsletter for Spotify's nextgen studios program</p>
-        </div>
-    </div>
-    <div id="row5">
-        <div>
-            <h3>Op-Ed</h3>
-            <iframe src="images_/writingsamples/Kendall Hymes Op Ed round 2.pdf" alt="starbucksnews" width="510px" height="690px" class="iframe"></iframe>
-            <a href="images_/writingsamples/Kendall Hymes Op Ed round 2.pdf" class="view">view my op-ed</a>
-            <p class="description">This piece highlights the benefits of teaching children to play instruments</p>
-        </div>
-        <div>
-            <h3>Media Alert- Newhouse 4 Expansion</h3>
-            <iframe src="images_/writingsamples/PRL 214_Media Alert G1.pdf" alt="starbucksnews" width="510px" height="690px" class="iframe"></iframe>
-            <a href="images_/writingsamples/PRL 214_Media Alert G1.pdf" class="view">view my media alert</a>
-            <p class="description">This media alert describes the ficticious construction of Newhouse 4</p>
-        </div>
     </div>
     
+    <div id="row1">
+        <div id="beakandskiff">
+            <br>
+            <h2>Beak and Skiff</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/logos/bslogo.png" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>Beak and Skiff is a fifth generation apple orchard in Fayetteville, NY. For my crisis communications class, I wrote a news release and fact sheet in response to a fake crisis scenario.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+               <a href="images_/writingsamples/bsFactSheet.pdf" class="sample"> Fact Sheet</a>
+               <a href="images_/writingsamples/bsMediaAlert.pdf" class="sample">Media Alert</a>
+            </div>
+        </div>
+        <div id="boeing">
+            <h2>Boeing</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/logos/boeinglogo.png" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>Boeing is one of the largest aerospace companies in the world and a major manufacturer of commercial jetliners and military aircraft. Throughout late 2023 and 2024, Boeing has been under fire for a lack of aircraft safety. In my management class, I wrote several mock briefings to present to the CEO about Boeing</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <a href="images_/writingsamples/boeingBriefing1.pdf" class="sample">Briefing 1</a>
+                <a href="images_/writingsamples/boeingBriefing2.pdf" class="sample">Briefing 2</a>
+                <a href="images_/writingsamples/boeingBriefing3.pdf" class="sample">Briefing 3</a> 
+            </div>
+        </div>
+    </div>
+
+    <div id="row2">
+        <div id="hs">
+            <br>
+            <h2>Hatfield Schwartz</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/logos/hslogo.jpeg" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>Hatfield Schwartz Law Group is a recently found legal firm in New Jersey. Specializing in workplace law, they offer legal solutions to small and medium sized businesses in the tri-state area. For this client, I was responsible for writing newsletters for the group.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <a href="images_/writingsamples/hsReintroduction.pdf" class="sample">Welcome Newsletter</a>
+                <a href="images_/writingsamples/hsBirthday.pdf" class="sample">Birthday Newsletter</a>
+            </div>
+        </div>
+        <div id="spotify">
+            <br>
+            <h2>Spotify</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/logos/spotifylogo.png" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>Spotify is the largest digital music streaming service that offers a vast library of music and podcasts to users. For my Public Relations writing class, I was tasked with being Spotify’s imaginary public relations professional, writing pitches, releases and long form writing samples.</p>
+                </div>
+            </div>
+            <br>
+            <div class="links">
+                <a href="images_/writingsamples/Fact Sheet- Spotify.pdf" class="sample">Fact Sheet</a>
+                <a href="images_/writingsamples/Media Pitch- Spotify (1).pdf" class="sample">Media Pitch</a>
+                <a href="images_/writingsamples/News Release final- Spotify.pdf" class="sample">News Release</a>
+                <a href="images_/writingsamples/PESO-Spotify (1).pdf" class="sample">PESO Analysis</a>
+            </div>
+        </div>
+    </div>
 
     <footer>
         <div class="footer">
