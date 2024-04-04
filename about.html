@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
+    <title>Writing Samples</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="project/project07/portfolio-style.css">
+    <a href="writinghead" class="skip">Skip to Content</a>
     <nav class="navwide"> 
         <div class="navsplit"> 
             <div><a href="experience.html" class="nothome" id="nh1"> experience </a></div>
@@ -22,28 +23,193 @@
             <div><a href="blog.html" class="nothome" id="nh4">blog</a></div>  
         </div>
     </nav>
-    <nav class="nav2">  
-        <ul>
-            <li><a href="../project05/home.html">
-                <img src="../images/design_samples/wordmark coal.png" width="80px" height="auto"></a>
-                <ul>
-                    <li><a href="../project05/experience.html"> experience </a></li>
-                    <li><a href= "../project05/portfolio.html">portfolio</a></li>
-                    <li><a href="../project05/about.html">about</a></li>
-                    <li><a href="../project05/blog.html">blog</a></li>
-                </ul>
-            </li>
+    <style>
+        .skip {
+        padding: 5px;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        left: -999px;
+        font-family: poppinsbold;
+        color: #373535;
+        transform: 0.3s;
+    }
+    .skip:focus {
+        position: static;
+        left: 10px;
+    }
+        
+        @media only screen and (max-width: 825px) {
+            #title {
+               font-size: 65px;
+            }
+            #sum {
+                font-size: 13px;
+            }
+        }
+        @media only screen and (max-width: 740px) {
+         .navwide, #writinghead, #hyper {
+            min-width: 685px;
+            align-content: center;
+        }
+        #row1, #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+        }
+    
+        }
+        @media only screen and (max-width: 700px) {
+            #title {
+                font-size: 50px;
+            }
+        }
+        @media only screen and (max-width: 645px) {
             
-            </li>
-        </ul>
-     </nav> 
+        }
 
+        @media only screen and (max-width: 565px) {
+            #title {
+                font-size: 40px;
+            }
+        }
+        @media only screen and (max-width: 390px) {
+        #row1, #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+            align-content: center;
+            padding-bottom: 75px;
+        }
+    
+        }
+
+h1 {
+        color: #ADDAFF;
+        font-size: 70px;
+        text-align: center;
+        }
+    #row1, #row2, #row3, #row4, #row5 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+        padding-top: 75px;
+    }
+    .iframe {
+        max-width: 510px;
+    }
+    
+    .view {
+            display: flex;
+            justify-content: center;
+            font-family: poppinsbold;
+            color: #FFFEF5;
+            text-decoration: none;
+        }
+    .view a:visited {
+            text-decoration: none;
+        }
+    #writinghead {
+        text-align: center;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        }
+    #row1 {
+        min-height: 300px;
+    }
+    #row2 {
+        min-height: 300px;
+    }
+    #contact {  
+        border: 10px solid #ADDAFF;
+        margin: 50px;
+        min-width: 1000px;
+        min-height: 600px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+   
+    h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+    h3 {
+        font-family: poppinsbold;
+        text-align: center;
+    }
+    .description {
+        font-size: 20px;
+        text-align:left;
+        max-width: 400px;
+
+    }
+    #sum {
+        font-size: 16px;
+    }
+    #contact .sample {
+        color: #52B1FF;
+    }
+   
+    .content {
+        display: flex;
+        justify-content: space-around;
+    }
+    .links {
+        display: flex;
+        justify-content: space-around;
+        font-family: poppinsbold;
+    }
+    .links a {
+       text-decoration: none;
+       color:#373535
+    }
+    .links a:visited {
+        text-decoration: none;
+    }
+    .spotify {
+        color: #FF66C4;
+    }
+    </style>
+    
 </head>
 <body>
+
+    <div id="writinghead">
+    <h1 id="title">Contact</h1>
+    </div>
+    
+    <div id="row1">
+        <div id="contact">
+            <br>
+            <h2>Contact Me!</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/kendallfun.jpeg" alt="beakandskifflogo" width="400px" height="auto">
+                </div>
+                <div class="description">
+                    <ul>
+                        <li>Phone Number - (571)-581-4138</li><br>
+                        <li>Email - kshymes@syr.edu</li><br>
+                        <li>Secondary Email - kshymes@g.syr.edu</li><br>
+                        <li>Instagram - kendall_hymes</li><br>
+                        <li>Linkedin - Kendall Hymes</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <br>
+        </div>
+    </div>
+
+
     <footer>
-        <p>&#169;2023</p>
-        <p>Designed by Kendall Hymes</p>
-        <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"></a><!--find a way to make this just the linkedin logo-->
-   </footer>    
+        <div class="footer">
+            <div class="footersplit">
+                <p>Designed by Kendall Hymes  &#169;2024</p>
+            </div>
+            <div class="footersplit">
+                <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="images_/linkedinlogo.png" alt="linkedin" width="40px" height="auto" class="footercontact"></a>
+                <a href="https://twitter.com/kshymes_"><img src="images_/twitterlogo.png" alt="twitter" width="40px" height="auto" class="footercontact"></a>
+                <a href="mailto:kshymes@syr.edu"><img src="images_/maillogo.png" alt="email" width="40px" height="auto" class="footercontact"></a>
+            </div>
+        </div>
+   </footer>
 </body>
 </html>
