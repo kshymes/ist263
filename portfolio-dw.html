@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Danceworks</title>
+    <title>Writing Samples</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="project/project07/portfolio-style.css">
+    <a href="writinghead" class="skip">Skip to Content</a>
     <nav class="navwide"> 
         <div class="navsplit"> 
             <div><a href="experience.html" class="nothome" id="nh1"> experience </a></div>
@@ -23,124 +24,186 @@
         </div>
     </nav>
     <style>
+        .skip {
+        padding: 5px;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        left: -999px;
+        font-family: poppinsbold;
+        color: #373535;
+        transform: 0.3s;
+    }
+    .skip:focus {
+        position: static;
+        left: 10px;
+    }
+        
+        @media only screen and (max-width: 825px) {
+            #title {
+               font-size: 65px;
+            }
+            #sum {
+                font-size: 13px;
+            }
+        }
+        @media only screen and (max-width: 740px) {
+         .navwide, #writinghead, #hyper {
+            min-width: 685px;
+            align-content: center;
+        }
+        #row1, #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+        }
+    
+        }
+        @media only screen and (max-width: 700px) {
+            #title {
+                font-size: 50px;
+            }
+        }
+        @media only screen and (max-width: 645px) {
+            
+        }
+
+        @media only screen and (max-width: 565px) {
+            #title {
+                font-size: 40px;
+            }
+        }
+        @media only screen and (max-width: 390px) {
+        #row1, #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+            align-content: center;
+            padding-bottom: 75px;
+        }
+    
+        }
 
 .link {
-            font-family: poppinsbold;
-            color: #FFFEF5;
-            size:15px;
-            padding: 10px;
-            padding-left: 20px;
-            padding-right: 20px;
-            text-decoration: none;
+    font-family: poppinsbold;
+    color: #FFFEF5;
+    size:15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+.link a:visited {
+    text-decoration: none;
+}
+#l1 {
+    background-color:#F8AEDC;
+}
+#l2 {
+    background-color: #FF66C4;
+}
+#l3 {
+    background-color: #373535;
+}
+#l4 {
+    background-color: #52B1FF;
+}
+#l5 {
+    background-color:#B2DCFF;
+}
+#hyper {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#description {
+    text-align: center;
+    font-size: 30px;
+}
+h1 {
+        color: #52B1FF;
+        font-size: 70px;
+        text-align: center;
         }
-        .link a:visited {
-            text-decoration: none;
-        }
-        #l1 {
-            background-color:#F8AEDC;
-        }
-        #l2 {
-            background-color: #FF66C4;
-        }
-        #l3 {
-            background-color: #373535;
-        }
-        #l4 {
-            background-color: #52B1FF;
-        }
-        #l5 {
-            background-color:#B2DCFF;
-        }
-        #hyper {
-            display:flex;
-            justify-content: space-around;
-        }
-
-
-        #dwhead {
-            text-align: center;
-            padding: 20px;
-            padding-left: 40px;
-            padding-right: 40px;
-        }
-        #branding, #linktree, #workshops, #justdw, #dwvogue {
-            text-align: center;
-        }
-        #brandingcontent, #linktreecontent, #workshopcontent, #justdwcontent, #dwvoguecontent, #row6 {
-            display:flex;
-            justify-content:space-around;
-            flex-wrap: wrap;
-        }
-        #row1 {
-            background-color: #52B1FF;
-            min-height: 950px;
-        }
-        #row1 .view {
-            color:#000000;
-        }
-        #brandhead {
-            padding-top: 75px;
-        }
-        #row2 {
-            background-color:#85C8FF;
-            min-height: 900px;
-        }
-        #linktreehead {
-            padding-top: 75px;
-        }
-        
-        #row3 {
-            background-color:#ADDAFF;
-            min-height: 950px;
-        }
-        #workshophead {
-            padding-top: 75px;
-        }
-        
-        #row4 {
-            background-color: #D6EDFF;
-            min-height: 1050px;
-        }
-        #justdwhead {
-            padding-top: 75px;
-        }
-        #row5 {
-            min-height: 1700px;
-        }
-        #voguehead {
-            padding-top: 75px;
-        }
-        #row5, #row6 {
-            background-color: #ffffff;
-        }
-        .view {
+    #row1, #row2, #row3, #row4, #row5 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap:wrap;
+        padding-top: 75px;
+    }
+    .iframe {
+        max-width: 510px;
+    }
+    
+    .view {
             display: flex;
             justify-content: center;
-            color:#52B1FF;
             font-family: poppinsbold;
+            color: #FFFEF5;
             text-decoration: none;
         }
-        .view a:visited {
-            text-decoration:none;
+    .view a:visited {
+            text-decoration: none;
         }
-        h1 {
-            font-size: 70px;
-            color: #52B1FF;
+    #writinghead {
+        text-align: center;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
         }
-        h2 {
-            font-family: poppinsbold;
-            font-size: 30px;
-        }
-        h3 {
-            font-family: poppinsbold;
-            text-align: center;
-        }
-        
-        p {
-            padding-left: 40px;
-            padding-right: 40px;
-        }
+    #row1 {
+        min-height: 300px;
+    }
+    #row2 {
+        min-height: 300px;
+    }
+    #beakandskiff {  
+        border: 10px solid #52B1FF;
+        margin: 50px;
+        min-width: 550px;
+        min-height: 400px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+   
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        font-family: poppinsbold;
+        text-align: center;
+    }
+    .description {
+        font-size: 13px;
+        text-align:left;
+        max-width: 200px;
+
+    }
+    #sum {
+        font-size: 16px;
+    }
+    #beakandskiff .sample {
+        color: #52B1FF;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-around;
+    }
+    .links {
+        display: flex;
+        justify-content: space-around;
+        font-family: poppinsbold;
+    }
+    .links a {
+       text-decoration: none;
+       color:#373535
+    }
+    .links a:visited {
+        text-decoration: none;
+    }
+    .spotify {
+        color: #FF66C4;
+    }
     </style>
+    
 </head>
 <body>
 
@@ -152,104 +215,25 @@
         <a href="portfolio-hc.html" class="link" id="l5">Case Studies</a>
     </div>
 
-    <div id="dwhead">
-        <h1>SU Danceworks</h1> 
-        <p>SU Danceworks is the largest student-run and audition-based dance organization at Syracuse University. As the graphic designer for Danceworks, I was responsible for designing all visual elements related to the organization and the annual showcase in the spring. This role gave me the opportunity to strengthen my design skills and become more involved with Danceworks.
-        </p>
+    <div id="writinghead">
+    <h1 id="title">Crisis Communications</h1>
     </div>
+    
     <div id="row1">
-        <div id="branding">
-            <h2 id="brandhead">Branding</h2>
-            <p>At the beginning of the year, I was tasked with creating an official brand guideline for Danceworks, as we wanted to update our branding to reflect the program&#39;s growth. I created a basic wordmark to use for birthday posts on the Danceworks Instagram page. In preparation for our spring showcase, I created an additional set of brand guidelines for our spring showcase, Danceworks VOGUE, and made the logo for that as well, inspired by the Vogue Magazine logo.</p>
-        </div>
-        <div id="brandingcontent">
-            <div>
-                <h3 id="brandguidelabel">Danceworks Brand Guidelines</h3>
-                <img src="images_/sudanceworks/dwbrandguide.png" alt="dwbrandguide" width="400" height="auto">
+        <div id="beakandskiff">
+            <br>
+            <h2>Beak and Skiff</h2>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/logos/bslogo.png" alt="beakandskifflogo" width="200px" height="auto">
+                </div>
+                <div class="description">
+                    <p>Beak and Skiff is a fifth generation apple orchard in Lafayette, NY. For my crisis communications class, I created a crisis management plan that they could use to address crises should they arise.</p>
+                </div>
             </div>
-            <div>
-                <h3 id="voguebrandlabel">Danceworks VOGUE Brand Guidelines</h3>
-                <img src="images_/sudanceworks/voguebrand.png" alt="voguebrand" width="400" height="auto">
-            </div>
-        </div>
-    </div>
-    <div id="row2">
-        <div id="linktree">
-            <h2 id="linktreehead">Linktree Resources</h2>
-            <p>As the graphic designer, I was also responsible for managing a Linktree page for easy access to Danceworks resources throughout the year. The initial Linktree included links to an about page, photo gallery, and links to old shows. After the initial launch, I would update the links as necessary to highlight events throughout the year. 
-            </p>
-        </div>
-        <div id="linktreecontent">
-            <div>
-                <h3 id="aboutlabel">About Danceworks</h3>
-                <img src="images_/sudanceworks/aboutdw.png" alt="aboutdw" width="385px" height="500px">
-            </div>
-            <div>
-                <h3 id="gallerylabel">Photo Gallery</h3>
-                <img src="images_/sudanceworks/dwphotogallery.png" alt="photos" width="385px" height="500px">
-            </div>
-            <div>
-                <h3 id="audtitionlabel">Audition Information</h3>
-                <img src="images_/sudanceworks/auditioninfo.png" alt="audition" width="385px" height="500px">
-            </div> 
-        </div>
-    </div>
-    <div id="row3">
-        <div id="workshops">
-            <h2 id="workshophead">Workshops</h2>
-            <p>Every fall and spring, Danceworks has a week of open workshops led by student choreographers. For these events, I created a series of graphics to post on the Danceworks Instagram page that aligned with our brand guidelines</p>
-        </div>
-        <div id="workshopcontent">
-        <div>
-            <h3 id="falllabel">Fall Workshop Graphics</h3>
-            <iframe src="images_/sudanceworks/fallworkshops-portfolio.pdf" alt="fallworkshops" width="510px" height="560px"></iframe>
-            <a href="images_/sudanceworks/fallworkshops-portfolio.pdf" class="view">click to view</a>
-        </div>
-        <div>
-            <h3 id="springlabel">Spring Workshop Graphics</h3>
-            <iframe src="images_/sudanceworks/springworkshop-portfolio.pdf" alt="springworkshops" width="510px" height="560px"></iframe>
-            <a href="images_/sudanceworks/springworkshop-portfolio.pdf" class="view">click to view</a>
-        </div>
-        </div>
-    </div>
-    <div id="row4">
-        <div id="justdw">
-            <h2 id="justdwhead">Just Danceworks</h2>
-            <p>Just Danceworks was a fundraiser during the fall of 2022, where participants competed in a just dance tournament for a prize. I designed all promotional graphics for the event</p>
-        </div>
-        <div id="justdwcontent">
-        <div>
-            <h3 id="justdwig">Just Danceworks Instagram Post</h3>
-            <iframe src="images_/sudanceworks/justdanceworks-portfolio.pdf" alt="jdwgraphic" width="510px" height="660px"></iframe>
-            <a href="image_/sudanceworks/justdanceworks-portfolio.pdf" class="view">click to view</a>
-        </div>
-        <div>
-            <h3 id="infographiclabel">Just Danceworks Infographic</h3>
-            <iframe src="images_/sudanceworks/Just Danceworks Infographic.pdf" alt="jdwinfo" width="510px" height="660px"></iframe>
-            <a href="images_/sudanceworks/Just Danceworks Infographic.pdf" class="view">click to view</a>
-        </div>
-        </div>
-    </div>
-    <div id="row5">
-        <div id="dwvogue">
-            <h2 id="voguehead">Danceworks Vogue Promotional Content</h2>
-            <p>In the months leading up to our spring showcase, I worked closely with the Danceworks public relations chairs to produce content for Instagram. A month before the show, we began posting choreographer highlights on Instagram that showed snippets of the show dances. We also planned and facilitated a cast-wide photoshoot to get more content for the Instagram feed. Lastly, we planned and filmed a 45-second promotional video for the show that highlighted dancers in the cast and got people excited about the show.</p>
-        </div>
-        <div id="dwvoguecontent">
-        <div>
-            <h3 id="vogueiglabel">Danceworks Instagram Feed</h3>
-            <iframe src="images_/sudanceworks/dwvoguefeed-portfolio.pdf" alt="voguefeed" width="510px" height="660px"></iframe>
-            <a href="images_/sudanceworks/dwvoguefeed-portfolio.pdf" class="view">click to view</a>
-        </div>
-        <div>
-            <h3 id="castshootlabel">Danceworks VOGUE Cast Shoot</h3>
-            <img src="images_/sudanceworks/dwvogueshoot-portfolio.jpg" alt="vogueshoot" width="510px" height="660px"></img>
-        </div>
-        </div>
-        <div id="row6">
-            <div>
-                <h3 id="voguevideolabel">Danceworks VOGUE Promo Video</h3>
-                <iframe src="images_/sudanceworks/VOGUEPROMOFINAL.mp4" alt="voguepromovid" width="960px" height="540px"></iframe>
+            <br>
+            <div class="links">
+               <a href="images_/crisiscomms/beakandskiffcmp.pdf" class="sample"> Crisis Management Plan</a>
             </div>
         </div>
     </div>

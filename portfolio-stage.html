@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syracuse Stage</title>
+    <title>Writing Samples</title>
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="project/project07/portfolio-style.css">
+    <a href="writinghead" class="skip">Skip to Content</a>
     <nav class="navwide"> 
         <div class="navsplit"> 
             <div><a href="experience.html" class="nothome" id="nh1"> experience </a></div>
@@ -22,95 +23,199 @@
             <div><a href="blog.html" class="nothome" id="nh4">blog</a></div>  
         </div>
     </nav>
-    
     <style>
+        .skip {
+        padding: 5px;
+        text-decoration: none;
+        position: absolute;
+        top: 10px;
+        left: -999px;
+        font-family: poppinsbold;
+        color: #373535;
+        transform: 0.3s;
+    }
+    .skip:focus {
+        position: static;
+        left: 10px;
+    }
+        
+        @media only screen and (max-width: 825px) {
+            #title {
+               font-size: 65px;
+            }
+            #sum {
+                font-size: 13px;
+            }
+        }
+        @media only screen and (max-width: 740px) {
+         .navwide, #writinghead, #hyper {
+            min-width: 685px;
+            align-content: center;
+        }
+        #row1, #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+        }
+    
+        }
+        @media only screen and (max-width: 700px) {
+            #title {
+                font-size: 50px;
+            }
+        }
+        @media only screen and (max-width: 645px) {
+            
+        }
+
+        @media only screen and (max-width: 565px) {
+            #title {
+                font-size: 40px;
+            }
+        }
+        @media only screen and (max-width: 390px) {
+        #row1, #row2, #row3, #row4, #row5 {
+            min-width: 730px;
+            align-content: center;
+            padding-bottom: 75px;
+        }
+    
+        }
 
 .link {
-            font-family: poppinsbold;
-            color: #FFFEF5;
-            size:15px;
-            padding: 10px;
-            padding-left: 20px;
-            padding-right: 20px;
-            text-decoration: none;
+    font-family: poppinsbold;
+    color: #FFFEF5;
+    size:15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+    text-decoration: none;
+}
+.link a:visited {
+    text-decoration: none;
+}
+#l1 {
+    background-color:#F8AEDC;
+}
+#l2 {
+    background-color: #FF66C4;
+}
+#l3 {
+    background-color: #373535;
+}
+#l4 {
+    background-color: #52B1FF;
+}
+#l5 {
+    background-color:#B2DCFF;
+}
+#hyper {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#description {
+    text-align: center;
+    font-size: 30px;
+}
+h1 {
+        color: #373535;
+        font-size: 70px;
+        text-align: center;
         }
-        .link a:visited {
-            text-decoration: none;
-        }
-        #l1 {
-            background-color:#F8AEDC;
-        }
-        #l2 {
-            background-color: #FF66C4;
-        }
-        #l3 {
-            background-color: #373535;
-        }
-        #l4 {
-            background-color: #52B1FF;
-        }
-        #l5 {
-            background-color:#B2DCFF;
-        }
-        #hyper {
-            display:flex;
-            justify-content: space-around;
-        }
+    #row1, #row2, #row3, #row4, #row5 {
 
-
-        #stagehead {
-            text-align: center;
-            padding: 20px;
-            padding-left: 40px;
-            padding-right: 40px;
-        }
-        #finalpres {
-            padding-top:75px;
-        }
-        .row1 {
-            display:flex;
-            justify-content:space-around;
-            flex-wrap: wrap;
-            background-color:#5E5A5A;
-            min-height: 1000px;
-        }
-        .row2 {
-            display:flex;
-            justify-content:space-around;
-            flex-wrap: wrap;
-            background-color: #7D7878;
-            min-height: 1000px;
-        }
-        .row3 {
-            display: flex;
-            justify-content: space-around;
-            flex-wrap: wrap;
-            background-color: #9B9797;
-            min-height: 850px;
-        }
-        .view {
+        flex-wrap:wrap;
+        padding-top: 75px;
+    }
+    .iframe {
+        max-width: 510px;
+    }
+    
+    .view {
             display: flex;
             justify-content: center;
             font-family: poppinsbold;
             color: #FFFEF5;
             text-decoration: none;
         }
-        .view a:visited {
+    .view a:visited {
             text-decoration: none;
         }
-        .label {
-            text-align: center;
-            padding-top: 150px;
+    #writinghead {
+        text-align: center;
+        padding: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
         }
-        h1 {
-            color: #373535;
-            font-size: 70px;
-        }
-        h3 {
-            font-family: poppinsbold;
-            color:#FFFEF5;
-        }
+    #row1 {
+        min-height: 300px;
+    }
+    #row2 {
+        min-height: 300px;
+    }
+    #beakandskiff {  
+        border: 10px solid #373535;
+        min-width: 1000px;
+        min-height: 600px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #hs {
+        border: 10px solid #373535;
+        min-width: 1000px;
+        min-height: 600px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    h2 {
+        text-align: center;
+    }
+    h3 {
+        font-family: poppinsbold;
+        text-align: center;
+    }
+    .description {
+        font-size: 13px;
+        text-align:left;
+        max-width: 200px;
+
+    }
+    .sample {
+        margin: 30px;
+    }
+    #sum {
+        font-size: 16px;
+    }
+    #beakandskiff .sample {
+        color: #373535;
+    }
+    #boeing .sample {
+        color: #373535;
+    }
+    #hs .sample {
+        color: #373535;
+    }
+    #spotify .sample {
+        color: #373535;
+    }
+    
+    .links {
+        display: flex;
+        justify-content: space-around;
+        font-family: poppinsbold;
+    }
+    .links a {
+       text-decoration: none;
+       color:#373535
+    }
+    .links a:visited {
+        text-decoration: none;
+    }
+    .spotify {
+        color: #FF66C4;
+    }
     </style>
+    
 </head>
 <body>
 
@@ -122,40 +227,41 @@
         <a href="portfolio-hc.html" class="link" id="l5">Case Studies</a>
     </div>
 
-    <div id="stagehead">
-        <h1>The Syracuse Stage</h1>
-        <p>My Public Relations Research class took on the Syracuse Stage, a local theatre company, as a client for the semester. The Stage was hit hard by the COVID-19 pandemic, and was struggling to bounce back once live theatre opened again. Throughout the semester, I worked with a team of five other students to research their audience and come up with suggestions on how the Stage can regain its audience. We used data analytics programs including Social Studio and SPSS to conduct analyses on the Stage’s public and social media presence.</p>
+    <div id="writinghead">
+    <h1 id="title">Web Design</h1>
     </div>
-    <div class="row1">
-        <div>
-            <h3 class="label">Social Media Analytics</h3>
-            <iframe src="images_/syracusestage/Social Media Analytics.pdf" alt="ss_socialmedia" width="434px" height="587px"></iframe>
-            <a href="images_/syracusestage/Social Media Analytics.pdf" class="view">click to view</a>
-        </div>
-        <div>
-            <h3 class="label">Content Analysis</h3>
-            <iframe src="images_/syracusestage/Syracuse Stage Content Analysis.pdf" alt="ss_content" width="434px" height="587px"></iframe>
-            <a href="images_/syracusestage/Syracuse Stage Content Analysis.pdf" class="view">click to view</a> 
-        </div>
-    </div>
-    <div class="row2"> <!--placeholder for upcoming stuff-->
-        <div>
-            <h3 class="label">Survey Analysis</h3>
-            <iframe src="images_/syracusestage/Social Media Analytics.pdf" alt="ss_socialmedia" width="434px" height="587px"></iframe>
-            <a href="images_/syracusestage/Social Media Analytics.pdf" class="view">click to view</a>
-        </div>
-        <div>
-            <h3 class="label">Syracuse Stage Survey Report</h3>
-            <iframe src="images_/syracusestage/Syracuse Stage Content Analysis.pdf" alt="ss_content" width="434px" height="587px"></iframe>
-            <a href="images_/syracusestage/Syracuse Stage Content Analysis.pdf" class="view">click to view</a> 
+    
+    <h2>Burnham Park Website</h2>
+    <div id="row1">
+        <div id="beakandskiff">
+            <br>
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/webdevelopment/bpa.png" alt="burnhampark" width="1250px" height="auto">
+                </div>
+            </div>
+            <br>
+            
         </div>
     </div>
-    <div class="row3"><!--placeholder for upcoming stuff-->
-        <div>
-            <h3 class="label" id="finalpres">Syracuse Stage Survey Presentation</h3>
-            <iframe src="images_/hatfieldschwartz/H&S Competitor analysis and online presense suggestions.pdf" alt="linkedinsuggestions" width="960px" height="580px"></iframe>
-            <a href="images_/hatfieldschwartz/H&S Competitor analysis and online presense suggestions.pdf" class="view">click to view</a>
+    <div class="links">
+        <a href="https://www.burnhampark.org/" class="sample"> Visit the Burnham Park Association Website</a>
+    </div>
+    
+    <h2>Personal Website</h2>
+    <div id="row2">
+        <div id="hs">
+            <br>   
+            <div class="content">
+                <div class="logo">
+                    <img src="images_/webdevelopment/portfolio.png" alt="hymesportfolio" width="1250px" height="auto">
+                </div>
+            </div>
+            <br>
         </div>
+    </div>
+    <div class="links">
+        <a href="https://kendallhymes.com/" class="sample"> Visit My Personal Website (you are already here haha)</a>
     </div>
 
     <footer>
@@ -163,13 +269,12 @@
             <div class="footersplit">
                 <p>Designed by Kendall Hymes  &#169;2024</p>
             </div>
-            <div class="footersplit" id="socials">
+            <div class="footersplit">
                 <a href="https://www.linkedin.com/in/kendall-hymes-2455381bb/"><img src="images_/linkedinlogo.png" alt="linkedin" width="40px" height="auto" class="footercontact"></a>
                 <a href="https://twitter.com/kshymes_"><img src="images_/twitterlogo.png" alt="twitter" width="40px" height="auto" class="footercontact"></a>
                 <a href="mailto:kshymes@syr.edu"><img src="images_/maillogo.png" alt="email" width="40px" height="auto" class="footercontact"></a>
             </div>
         </div>
    </footer>
-    
 </body>
 </html>
